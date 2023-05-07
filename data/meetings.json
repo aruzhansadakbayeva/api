@@ -1,0 +1,73 @@
+{
+  "data": {
+    "plannedMeetingMob": {
+      "getMeetings": {
+        "1174": [
+          {
+            "id": 1,
+            "dateToVisit": "2023-05-04",
+            "statusVisit": "completed",
+            "clients": [
+              {
+                "visitId": 1,
+                "statusVisit": true,
+                "clientId": 1,
+                "clientName": "John Doe",
+                "dateVisit": "2023-05-01",
+                "clientIin": 123456789,
+                "clientAddress": "123 Main St",
+                "visitTypeName": "check-up",
+                "visitTypeId": 1,
+                "meetingTypeId": 1,
+                "meetingTime": "10:00 AM",
+                "meetingTypeName": "in-person",
+                "plotId": 1
+              },
+              {
+                "visitId": 1,
+                "statusVisit": true,
+                "clientId": 2,
+                "clientName": "Jane Smith",
+                "dateVisit": "2023-05-02",
+                "clientIin": 987654321,
+                "clientAddress": null,
+                "visitTypeName": null,
+                "visitTypeId": 0,
+                "meetingTypeId": 2,
+                "meetingTime": "2:00 PM",
+                "meetingTypeName": "virtual",
+                "plotId": 1
+              }
+            ]
+          },
+          {
+            "id": 2,
+            "dateToVisit": "2023-05-06",
+            "statusVisit": "planned",
+            "clients": [
+              {
+                "visitId": 2,
+                "statusVisit": false,
+                "clientId": 3,
+                "clientName": "Bob Johnson",
+                "dateVisit": "2023-05-07",
+                "clientIin": 555555555,
+                "clientAddress": "456 Elm St",
+                "visitTypeName": "follow-up",
+                "visitTypeId": 2,
+                "meetingTypeId": 1,
+                "meetingTime": null,
+                "meetingTypeName": "in-person",
+                "plotId": 2
+              }
+            ]
+          }
+        ]
+      }
+      }
+    ,
+      "meetingSurvey": {
+        "message": "Это ответ на запрос типа B"
+      }
+    }
+  }
