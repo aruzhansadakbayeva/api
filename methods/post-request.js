@@ -11,7 +11,7 @@ module.exports = (req, res) => {
   if (req.url === "/api/meetings" && req.method === "POST") {
     requestBodyparser(req)
       .then((body) => {
-        const { type, action, visitId, userId } = body;
+        const { type, action, visitId, userId} = body;
 
         if (type === "plannedMeetingMob" && action === "getMeetings" && userId) {
           const message = data.data[type][action][userId];
@@ -48,6 +48,34 @@ module.exports = (req, res) => {
           res.writeHead(200, { "Content-Type": "application/json" });
           res.end(JSON.stringify(message));
         }
+        else if (type === "plannedMeetingMob" && action === "setStartVisit" && visitId) {
+          const meeting = data.data[type]["getDetailMeeting"][visitId];
+          if (meeting) {
+            meeting.statusVisit = true;
+            meeting.startVisit = new Date().toISOString();
+            const fs = require("fs");
+            const filePath = "./data/meetings.json";
+            const dataToSave = JSON.stringify(data);
+            fs.writeFile(filePath, dataToSave, (err) => {
+              if (err) {
+                console.error("Error saving data:", err);
+                res.writeHead(500, { "Content-Type": "application/json" });
+                res.end(JSON.stringify({ message: "Error saving data" }));
+              } else {
+                res.writeHead(200, { "Content-Type": "application/json" });
+                res.end(JSON.stringify({ message: "startdate fixed" }));
+              }
+            });
+            res.writeHead(200, { "Content-Type": "application/json" });
+            res.end(JSON.stringify({
+              message: "Start date fixed",
+              meeting: meeting
+            }));
+          }
+        }
+        
+        
+        
         else {
           res.writeHead(400, { "Content-Type": "application/json" });
           res.end(
