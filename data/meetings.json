@@ -63,6 +63,52 @@
             ]
           }
         ]
+      },
+      "getDetailMeeting": {
+        "1":{
+        "clientId": 1,
+"clientName": "John Doe",
+"clientCategory": "Enterprise",
+"address": "123 Main St, Anytown USA",
+"contactInf": [
+{
+"id": "1",
+"position": "CEO",
+"name": "John Doe",
+"phNumber": "+1 555-123-4567",
+"email": "johndoe@acme.com"
+},
+{
+"id": "2",
+"position": "CTO",
+"name": "Jane Smith",
+"phNumber": "+1 555-987-6543",
+"email": "janesmith@acme.com"
+}
+],
+"clientIin": 123456789,
+"managerId": 456,
+"managerName": "Bob Johnson",
+"startVisit": "2023-05-09T10:00:00Z",
+"finishVisit": "2023-05-09T12:00:00Z",
+"statusVisit": true,
+"visitTypeId": 1,
+"visitTypeName": "Regular",
+"meetingTypeId": 2,
+"meetingTypeName": "Presentation",
+"meetingCoordinate": "37.7749° N, 122.4194° W",
+"plotId": 789,
+"plotName": "ACME Headquarters",
+"summContract": "$1,000,000",
+"summCurrentContractSeason": "$250,000",
+"checkContracts": true,
+"potentialClientPercent": "75%",
+"subscidesSum": "$50,000",
+"checkSubscides": true,
+"duration": "2 hours",
+"distance": "5 miles"
+
+        }
       }
       }
     ,

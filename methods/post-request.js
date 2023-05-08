@@ -11,11 +11,27 @@ module.exports = (req, res) => {
   if (req.url === "/api/meetings" && req.method === "POST") {
     requestBodyparser(req)
       .then((body) => {
-        const visit = { type: body.type, action: body.action, userId: body.userId };
-        const message = data.data[visit.type][visit.action][visit.userId];
+        const { type, action, visitId, userId } = body;
 
-        res.writeHead(200, { "Content-Type": "application/json" });
-        res.end(JSON.stringify(message));
+        if (type === "plannedMeetingMob" && action === "getMeetings" && userId) {
+          const message = data.data[type][action][userId];
+
+          res.writeHead(200, { "Content-Type": "application/json" });
+          res.end(JSON.stringify(message));
+        } else if (type === "plannedMeetingMob" && action === "getDetailMeeting" && visitId) {
+          const message = data.data[type][action][visitId];
+
+          res.writeHead(200, { "Content-Type": "application/json" });
+          res.end(JSON.stringify(message));
+        } else {
+          res.writeHead(400, { "Content-Type": "application/json" });
+          res.end(
+            JSON.stringify({
+              title: "Validation Failed",
+              message: "Request body is not valid",
+            })
+          );
+        }
       })
       .catch((err) => {
         console.log(err);
