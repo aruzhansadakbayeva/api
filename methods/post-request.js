@@ -36,6 +36,12 @@ module.exports = (req, res) => {
           res.writeHead(200, { "Content-Type": "application/json" });
           res.end(JSON.stringify(message));
         }
+        else if (type === "meetingSurvey" && action === "getHandBookContractComplications") {
+          const message = data.data[type][action];
+
+          res.writeHead(200, { "Content-Type": "application/json" });
+          res.end(JSON.stringify(message));
+        }
         else {
           res.writeHead(400, { "Content-Type": "application/json" });
           res.end(

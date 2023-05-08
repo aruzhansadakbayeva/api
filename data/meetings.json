@@ -16,7 +16,7 @@
                 "dateVisit": "2023-05-01",
                 "clientIin": 123456789,
                 "clientAddress": "123 Main St",
-                "visitTypeName": "check-up",
+                "visitTypeName": "Заключение договора",
                 "visitTypeId": 1,
                 "meetingTypeId": 1,
                 "meetingTime": "10:00 AM",
@@ -31,7 +31,7 @@
                 "dateVisit": "2023-05-02",
                 "clientIin": 987654321,
                 "clientAddress": null,
-                "visitTypeName": null,
+                "visitTypeName": "Заключение договора",
                 "visitTypeId": 0,
                 "meetingTypeId": 2,
                 "meetingTime": "2:00 PM",
@@ -53,7 +53,7 @@
                 "dateVisit": "2023-05-07",
                 "clientIin": 555555555,
                 "clientAddress": "456 Elm St",
-                "visitTypeName": "follow-up",
+                "visitTypeName": "Заключение договора",
                 "visitTypeId": 2,
                 "meetingTypeId": 1,
                 "meetingTime": null,
@@ -213,6 +213,41 @@
          "category": "Обнаружение проблемы",
          "categoryId": 3
       }
+  ],
+  "getHandBookContractComplications": [
+    {
+      "id": 1,
+      "name": "Не устраивают цены"
+    },
+    {
+      "id": 2,
+      "name": "Не устраивают условия оплаты"
+    },
+    {
+     "id":3,
+     "name": "Предложение КП"
+    },
+    {
+     "id": 4,
+     "name": "Лоялен к конкурентам"
+    },
+   {
+     "id": 5,
+     "name": "Нет денег (у клиента)"
+   },
+   {
+     "id": 6,
+     "name": "Не устраивают условия поставки"
+   },
+   {
+     "id": 7,
+     "name": "Нет готовности к переговорам"
+   },
+   {
+     "id": 8,
+     "name": "Другое"
+   }
+  
   ]
 
     }
