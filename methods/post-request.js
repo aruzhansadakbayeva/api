@@ -150,62 +150,51 @@ module.exports = (req, res) => {
       }
 
       const { type, key, src, value } = req.body;
-      let meetingsData = [];
+      //let meetingsData = [];
 
       if ([key === "file" && src && type === "file"], [key === "type" && value ==="uploadFile" && type === "text"], [key === "action" && value ==="visitProfile" && type === "text"], [key === "visitId" && value  && type === "text"]) {
         const filePath = req.file.path;
-        const fileUrl = `http://${req.headers.host}/uploads/${req.file.filename}`; // Создаем ссылку на загруженный файл
-        const message = { message: "file uploaded", fileUrl }; // Включаем ссылку в тело ответа
 
-        // Read the contents of meetings.json file
-        const meetingsFilePath =   path.join(__dirname, "meetings.json");
-        if (fs.existsSync(meetingsFilePath)) {
-          meetingsData = JSON.parse(fs.readFileSync(meetingsFilePath));
-        }
+        // Read the existing meetings data from the JSON file
+        fs.readFile("./data/meetings.json", (err, data) => {
+          if (err) {
+            console.error(err);
+            res.writeHead(500, { "Content-Type": "application/json" });
+            res.end(JSON.stringify({ error: "Failed to read meetings data" }));
+            return;
+          }
 
-        // Add the new file information to the parsed object
-        meetingsData.push({
-          fileUrl,
-          createdAt: new Date(),
+          // Parse the JSON data into a JavaScript object
+          const meetingsObj = JSON.parse(data);
+
+          // Push the uploaded file to the appropriate array
+          meetingsObj.data.plannedMeetingMob.uploadFile.push({
+            name: req.file.originalname,
+            path: filePath,
+            date: new Date().toISOString(),
+          });
+
+          // Convert the updated object back to a JSON string and write it to the file
+          fs.writeFile("./data/meetings.json", JSON.stringify(meetingsObj), (err) => {
+            if (err) {
+              console.error(err);
+              res.writeHead(500, { "Content-Type": "application/json" });
+              res.end(JSON.stringify({ error: "Failed to write meetings data" }));
+              return;
+            }
+
+            // Send the response
+            res.writeHead(200, { "Content-Type": "application/json" });
+            res.end(JSON.stringify({ success: true }));
+          });
         });
-
-        // Write the updated object back to the file
-        fs.writeFileSync(meetingsFilePath, JSON.stringify(meetingsData));
-
-        res.writeHead(200, { "Content-Type": "application/json" });
-        res.end(JSON.stringify(message));
-      }  else if (
+      } else if (
         key === "type" &&
         value === "uploadFile" &&
         type === "text"
       ) {
-        const message = "text file uploaded";
-
-        res.writeHead(200, { "Content-Type": "application/json" });
-        res.end(JSON.stringify(message));
-      } else if (
-        key === "action" &&
-        value === "visitProfile" &&
-        type === "text"
-      ) {
-        const message = "visit profile";
-
-        res.writeHead(200, { "Content-Type": "application/json" });
-        res.end(JSON.stringify(message));
-      } else if (key === "visitId" && value && type === "text") {
-        const message = "visit id";
-
-        res.writeHead(200, { "Content-Type": "application/json" });
-        res.end(JSON.stringify(message));
-      } 
-
-      else {
-        res.writeHead(400, { "Content-Type": "application/json" });
-        res.end(
-          JSON.stringify({ error: "Invalid request body parameters" })
-        );
+        // Handle other form data if necessary
       }
     });
   }
 };
-
