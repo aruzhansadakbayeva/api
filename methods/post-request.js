@@ -150,11 +150,12 @@ module.exports = (req, res) => {
       }
 
       const { type, key, src, value } = req.body;
+      
       //let meetingsData = [];
 
       if ([key === "file" && src && type === "file"], [key === "type" && value ==="uploadFile" && type === "text"], [key === "action" && value ==="visitProfile" && type === "text"], [key === "visitId" && value  && type === "text"]) {
         const filePath = req.file.path;
-
+        const { visitId } = req.body;
         // Read the existing meetings data from the JSON file
         fs.readFile("./data/meetings.json", (err, data) => {
           if (err) {
@@ -172,6 +173,7 @@ module.exports = (req, res) => {
             name: req.file.originalname,
             path: filePath,
             date: new Date().toISOString(),
+            visitId: visitId
           });
 
           // Convert the updated object back to a JSON string and write it to the file
