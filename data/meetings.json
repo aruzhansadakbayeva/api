@@ -1,291 +1,474 @@
 {
-  "data": {
-    "plannedMeetingMob": {
-      "getMeetings": {
-        "1174": [
-          {
-            "id": 1,
-            "dateToVisit": "2023-05-04",
-            "statusVisit": "completed",
-            "clients": [
-              {
-                "visitId": 1,
-                "statusVisit": true,
-                "clientId": 1,
-                "clientName": "John Doe",
-                "dateVisit": "2023-05-01",
-                "clientIin": 123456789,
-                "clientAddress": "123 Main St",
-                "visitTypeName": "Заключение договора",
-                "visitTypeId": 1,
-                "meetingTypeId": 1,
-                "meetingTime": "10:00 AM",
-                "meetingTypeName": "in-person",
-                "plotId": 1
-              },
-              {
-                "visitId": 1,
-                "statusVisit": true,
-                "clientId": 2,
-                "clientName": "Jane Smith",
-                "dateVisit": "2023-05-02",
-                "clientIin": 987654321,
-                "clientAddress": null,
-                "visitTypeName": "Заключение договора",
-                "visitTypeId": 0,
-                "meetingTypeId": 2,
-                "meetingTime": "2:00 PM",
-                "meetingTypeName": "virtual",
-                "plotId": 1
-              }
+    "data": {
+        "plannedMeetingMob": {
+            "getMeetings": {
+                "1174": [
+                    {
+                        "id": 1,
+                        "dateToVisit": "2023-05-04",
+                        "statusVisit": "completed",
+                        "clients": [
+                            {
+                                "visitId": 1,
+                                "statusVisit": true,
+                                "clientId": 1,
+                                "clientName": "John Doe",
+                                "dateVisit": "2023-05-01",
+                                "clientIin": 123456789,
+                                "clientAddress": "123 Main St",
+                                "visitTypeName": "Заключение договора",
+                                "visitTypeId": 1,
+                                "meetingTypeId": 1,
+                                "meetingTime": "10:00 AM",
+                                "meetingTypeName": "in-person",
+                                "plotId": 1
+                            },
+                            {
+                                "visitId": 1,
+                                "statusVisit": true,
+                                "clientId": 2,
+                                "clientName": "Jane Smith",
+                                "dateVisit": "2023-05-02",
+                                "clientIin": 987654321,
+                                "clientAddress": null,
+                                "visitTypeName": "Заключение договора",
+                                "visitTypeId": 0,
+                                "meetingTypeId": 2,
+                                "meetingTime": "2:00 PM",
+                                "meetingTypeName": "virtual",
+                                "plotId": 1
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "dateToVisit": "2023-05-06",
+                        "statusVisit": "planned",
+                        "clients": [
+                            {
+                                "visitId": 2,
+                                "statusVisit": false,
+                                "clientId": 3,
+                                "clientName": "Bob Johnson",
+                                "dateVisit": "2023-05-07",
+                                "clientIin": 555555555,
+                                "clientAddress": "456 Elm St",
+                                "visitTypeName": "Заключение договора",
+                                "visitTypeId": 2,
+                                "meetingTypeId": 1,
+                                "meetingTime": null,
+                                "meetingTypeName": "in-person",
+                                "plotId": 2
+                            }
+                        ]
+                    }
+                ]
+            },
+            "getDetailMeeting": {
+                "1": {
+                    "clientId": 1,
+                    "clientName": "John Doe",
+                    "clientCategory": "Enterprise",
+                    "address": "123 Main St, Anytown USA",
+                    "contactInf": [
+                        {
+                            "id": "1",
+                            "position": "CEO",
+                            "name": "John Doe",
+                            "phNumber": "+1 555-123-4567",
+                            "email": "johndoe@acme.com"
+                        }
+                    ],
+                    "clientIin": 123456789,
+                    "managerId": 456,
+                    "managerName": "Bob Johnson",
+                    "startVisit": "2023-05-13T15:34:57.344Z",
+                    "finishVisit": "2023-05-13T15:35:01.435Z",
+                    "statusVisit": false,
+                    "visitTypeId": 1,
+                    "visitTypeName": "Regular",
+                    "meetingTypeId": 2,
+                    "meetingTypeName": "Presentation",
+                    "meetingCoordinate": "37.7749° N, 122.4194° W",
+                    "plotId": 789,
+                    "plotName": "ACME Headquarters",
+                    "summContract": "$1,000,000",
+                    "summCurrentContractSeason": "$250,000",
+                    "checkContracts": true,
+                    "potentialClientPercent": "75%",
+                    "subscidesSum": "$50,000",
+                    "checkSubscides": true,
+                    "duration": "2 hours",
+                    "distance": "5 miles"
+                }
+            },
+            "uploadFile": [
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/a1824f10ffd986f056d6cb71eed427b2",
+                    "date": "2023-05-12T15:57:38.581Z"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/f990054abfa40f68d78f89a5b21237d6",
+                    "date": "2023-05-12T16:03:57.459Z"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/6e114dfb62f6ecdd9ffd2868accb3390",
+                    "date": "2023-05-12T16:10:08.757Z",
+                    "visitId": null
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/88eeab018481932b07f6f878bc7d4cc6",
+                    "date": "2023-05-12T16:11:05.786Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/fdc22fe6bbabdcefeacf25776ea9e59d",
+                    "date": "2023-05-12T16:11:16.943Z",
+                    "visitId": "4"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/4ab3b38aafb11ddff43dd361ea56692b",
+                    "date": "2023-05-12T16:18:13.547Z",
+                    "visitId": "4"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/ada12c350dc4bfd25f51aed29ab57944",
+                    "date": "2023-05-12T16:38:52.987Z",
+                    "visitId": "4"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/a615618be17d848e73204409f3b13b4b",
+                    "date": "2023-05-12T16:43:45.895Z",
+                    "visitId": "4"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/56690a0b3354120cc1c22accc0077ead",
+                    "date": "2023-05-12T16:43:50.483Z",
+                    "visitId": "4"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/f6177fe1b7842c4a2972ba7960bd0a1b",
+                    "date": "2023-05-12T17:22:15.654Z",
+                    "visitId": "4"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/249138e206f1473bf22203ccb3ab1678",
+                    "date": "2023-05-12T17:24:42.701Z",
+                    "visitId": "4"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/dc36c6b48503a1fbc4146ae4152d90b7",
+                    "date": "2023-05-12T17:25:03.496Z",
+                    "visitId": "5"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/69625a1a9fee293eb8e0c5e9b64c04db",
+                    "date": "2023-05-12T17:28:14.076Z",
+                    "visitId": "5"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/87bb8d7b0b501ded69dbf6fffb8f9ecd",
+                    "date": "2023-05-12T17:28:24.490Z",
+                    "visitId": "6"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/9088ba00b37b56c9bdf7f21a84282391",
+                    "date": "2023-05-12T18:08:53.254Z",
+                    "visitId": "6"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/7c5426f8fbaa1334219b0187fe819a7c",
+                    "date": "2023-05-12T18:12:02.469Z",
+                    "visitId": "6"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/0a7c59aeeb9b41b8b19b7283db0c79b0",
+                    "date": "2023-05-12T18:12:33.083Z",
+                    "visitId": "6"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/d76c72fde810ee886d913a5de2818ca4",
+                    "date": "2023-05-12T18:13:08.175Z",
+                    "visitId": "6"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/4aadea50649be88c91a498661f0b21bc",
+                    "date": "2023-05-12T18:14:19.263Z",
+                    "visitId": "6"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/d4290e3b0b439b3361cc6eb04c3b07c5",
+                    "date": "2023-05-12T18:21:16.098Z",
+                    "visitId": "6"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/2f35d7fdb3217e993526e747595d9c1b",
+                    "date": "2023-05-12T18:47:58.253Z",
+                    "visitId": "6"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/0a1d2419fdd237aaf5ae8e812c6bfa0d",
+                    "date": "2023-05-12T18:50:11.868Z",
+                    "visitId": "6"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/eddfa2d73154c20161fcc4dbfc2837c5",
+                    "date": "2023-05-12T18:51:01.673Z",
+                    "visitId": "6"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/a2ab4a16c5b2f24bb62d8bccfdb0a7a3",
+                    "date": "2023-05-12T19:10:40.384Z",
+                    "visitId": "6"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/029edb038230d18909bd9862732302d6",
+                    "date": "2023-05-12T19:17:42.821Z",
+                    "visitId": "6"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/1098ceccd854855998103524d79b1933",
+                    "date": "2023-05-12T19:21:03.968Z",
+                    "visitId": "6"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/2d04badf659db96b0981f8a1db5ea1e2",
+                    "date": "2023-05-13T10:49:11.741Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/02d966a93674d4e503fce31a3df8500f",
+                    "date": "2023-05-13T11:00:50.724Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/e87a9c0c2cbb7fabf48977009e49688c",
+                    "date": "2023-05-13T11:30:09.430Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/741f90ac24470c9af036d29055abcf1f",
+                    "date": "2023-05-13T14:59:26.547Z"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/8acaf60765b1329c1a8fc6ca78488b16",
+                    "date": "2023-05-13T14:59:56.653Z"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/7ee87c03b3a150977b700462ee8eb8e2",
+                    "date": "2023-05-13T15:02:15.744Z"
+                },
+                {
+                    "name": "▶ Prototype - ORYN Design Sheet.pdf",
+                    "path": "uploads/a7ba90bcd5e581349aca297c1165332e",
+                    "date": "2023-05-13T15:31:58.822Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "qr-QR2839542111.pdf",
+                    "path": "uploads/81e0392ec9342d65d2e9606771549122",
+                    "date": "2023-05-13T15:36:00.428Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "6CDE6585-0AEF-4AA0-9595-3F53F05B679D.jpeg",
+                    "path": "uploads/be7110e6daec64a4c7aa930a97ba7f6a",
+                    "date": "2023-05-13T15:36:28.500Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "A31BDC32-5D27-4A82-9271-53E56E1D963E.jpg",
+                    "path": "uploads/ba3be1adc388153561e73b2a40768579",
+                    "date": "2023-05-13T15:38:39.773Z",
+                    "visitId": "1"
+                }
             ]
-          },
-          {
-            "id": 2,
-            "dateToVisit": "2023-05-06",
-            "statusVisit": "planned",
-            "clients": [
-              {
-                "visitId": 2,
-                "statusVisit": false,
-                "clientId": 3,
-                "clientName": "Bob Johnson",
-                "dateVisit": "2023-05-07",
-                "clientIin": 555555555,
-                "clientAddress": "456 Elm St",
-                "visitTypeName": "Заключение договора",
-                "visitTypeId": 2,
-                "meetingTypeId": 1,
-                "meetingTime": null,
-                "meetingTypeName": "in-person",
-                "plotId": 2
-              }
+        },
+        "meetingSurvey": {
+            "getHandBookWorkDone": [
+                {
+                    "id": 1,
+                    "name": "Установление/ Поддержание Контакта"
+                },
+                {
+                    "id": 2,
+                    "name": "Определение Потребностей"
+                },
+                {
+                    "id": 3,
+                    "name": "Предложение КП"
+                },
+                {
+                    "id": 4,
+                    "name": "Заключение Договора"
+                },
+                {
+                    "id": 5,
+                    "name": "Осмотр поля"
+                },
+                {
+                    "id": 6,
+                    "name": "Оплата Сбор/ Долгов"
+                },
+                {
+                    "id": 7,
+                    "name": "Работа с Документами"
+                },
+                {
+                    "id": 8,
+                    "name": "Завершение Сезона"
+                },
+                {
+                    "id": 9,
+                    "name": "Другое"
+                }
+            ],
+            "getHandBookFieldInsp": [
+                {
+                    "id": 1,
+                    "name": "Масличные",
+                    "category": "Выбор культуры",
+                    "categoryId": 1
+                },
+                {
+                    "id": 2,
+                    "name": "Зерновые",
+                    "category": "Выбор культуры",
+                    "categoryId": 1
+                },
+                {
+                    "id": 3,
+                    "name": "Кукуруза",
+                    "category": "Выбор культуры",
+                    "categoryId": 1
+                },
+                {
+                    "id": 4,
+                    "name": "Овощи",
+                    "category": "Выбор культуры",
+                    "categoryId": 1
+                },
+                {
+                    "id": 1,
+                    "name": "Подготовка посева",
+                    "category": "Этапы осмотра полей по культуре",
+                    "categoryId": 2
+                },
+                {
+                    "id": 2,
+                    "name": "Посев",
+                    "category": "Этапы осмотра полей по культуре",
+                    "categoryId": 2
+                },
+                {
+                    "id": 3,
+                    "name": "Всходы",
+                    "category": "Этапы осмотра полей по культуре",
+                    "categoryId": 2
+                },
+                {
+                    "id": 1,
+                    "name": "Вредители",
+                    "category": "Обнаружение проблемы",
+                    "categoryId": 3
+                },
+                {
+                    "id": 2,
+                    "name": "Болезни",
+                    "category": "Обнаружение проблемы",
+                    "categoryId": 3
+                },
+                {
+                    "id": 3,
+                    "name": "Качество всходов",
+                    "category": "Обнаружение проблемы",
+                    "categoryId": 3
+                }
+            ],
+            "getHandBookContractComplications": [
+                {
+                    "id": 1,
+                    "name": "Не устраивают цены"
+                },
+                {
+                    "id": 2,
+                    "name": "Не устраивают условия оплаты"
+                },
+                {
+                    "id": 3,
+                    "name": "Предложение КП"
+                },
+                {
+                    "id": 4,
+                    "name": "Лоялен к конкурентам"
+                },
+                {
+                    "id": 5,
+                    "name": "Нет денег (у клиента)"
+                },
+                {
+                    "id": 6,
+                    "name": "Не устраивают условия поставки"
+                },
+                {
+                    "id": 7,
+                    "name": "Нет готовности к переговорам"
+                },
+                {
+                    "id": 8,
+                    "name": "Другое"
+                }
+            ],
+            "getHandBookMeetingRecommendations": [
+                {
+                    "id": 1,
+                    "name": "Была ли агроконсультация?"
+                },
+                {
+                    "id": 2,
+                    "name": "Были ли рекомендованы товары?"
+                },
+                {
+                    "id": 3,
+                    "name": "Была ли договоренность с клиентом?"
+                },
+                {
+                    "id": 4,
+                    "name": "Нужно ли создать себе задачу?"
+                }
             ]
-          }
-        ]
-      },
-      "getDetailMeeting": {
-        "1": {
-          "clientId": 1,
-          "clientName": "John Doe",
-          "clientCategory": "Enterprise",
-          "address": "123 Main St, Anytown USA",
-          "contactInf": [
-            {
-              "id": "1",
-              "position": "CEO",
-              "name": "John Doe",
-              "phNumber": "+1 555-123-4567",
-              "email": "johndoe@acme.com"
-            }
-          ],
-          "clientIin": 123456789,
-          "managerId": 456,
-          "managerName": "Bob Johnson",
-          "startVisit": "2023-05-12T06:49:14.525Z",
-          "finishVisit": "2023-05-12T06:58:33.052Z",
-          "statusVisit": false,
-          "visitTypeId": 1,
-          "visitTypeName": "Regular",
-          "meetingTypeId": 2,
-          "meetingTypeName": "Presentation",
-          "meetingCoordinate": "37.7749° N, 122.4194° W",
-          "plotId": 789,
-          "plotName": "ACME Headquarters",
-          "summContract": "$1,000,000",
-          "summCurrentContractSeason": "$250,000",
-          "checkContracts": true,
-          "potentialClientPercent": "75%",
-          "subscidesSum": "$50,000",
-          "checkSubscides": true,
-          "duration": "2 hours",
-          "distance": "5 miles"
         }
-      },
-      "uploadFile": [
-        {
-          "name": "▶ Prototype - ORYN Design Sheet.pdf",
-          "path": "uploads/a1824f10ffd986f056d6cb71eed427b2",
-          "date": "2023-05-12T15:57:38.581Z"
-        },
-        {
-          "name": "▶ Prototype - ORYN Design Sheet.pdf",
-          "path": "uploads/f990054abfa40f68d78f89a5b21237d6",
-          "date": "2023-05-12T16:03:57.459Z"
-        },
-        {
-          "name": "▶ Prototype - ORYN Design Sheet.pdf",
-          "path": "uploads/6e114dfb62f6ecdd9ffd2868accb3390",
-          "date": "2023-05-12T16:10:08.757Z",
-          "visitId": null
-        },
-        {
-          "name": "▶ Prototype - ORYN Design Sheet.pdf",
-          "path": "uploads/88eeab018481932b07f6f878bc7d4cc6",
-          "date": "2023-05-12T16:11:05.786Z",
-          "visitId": "1"
-        },
-        {
-          "name": "▶ Prototype - ORYN Design Sheet.pdf",
-          "path": "uploads/fdc22fe6bbabdcefeacf25776ea9e59d",
-          "date": "2023-05-12T16:11:16.943Z",
-          "visitId": "4"
-        }
-      ]
-    },
-    "meetingSurvey": {
-      "getHandBookWorkDone": [
-        {
-          "id": 1,
-          "name": "Установление/ Поддержание Контакта"
-        },
-        {
-          "id": 2,
-          "name": "Определение Потребностей"
-        },
-        {
-          "id": 3,
-          "name": "Предложение КП"
-        },
-        {
-          "id": 4,
-          "name": "Заключение Договора"
-        },
-        {
-          "id": 5,
-          "name": "Осмотр поля"
-        },
-        {
-          "id": 6,
-          "name": "Оплата Сбор/ Долгов"
-        },
-        {
-          "id": 7,
-          "name": "Работа с Документами"
-        },
-        {
-          "id": 8,
-          "name": "Завершение Сезона"
-        },
-        {
-          "id": 9,
-          "name": "Другое"
-        }
-      ],
-      "getHandBookFieldInsp": [
-        {
-          "id": 1,
-          "name": "Масличные",
-          "category": "Выбор культуры",
-          "categoryId": 1
-        },
-        {
-          "id": 2,
-          "name": "Зерновые",
-          "category": "Выбор культуры",
-          "categoryId": 1
-        },
-        {
-          "id": 3,
-          "name": "Кукуруза",
-          "category": "Выбор культуры",
-          "categoryId": 1
-        },
-        {
-          "id": 4,
-          "name": "Овощи",
-          "category": "Выбор культуры",
-          "categoryId": 1
-        },
-        {
-          "id": 1,
-          "name": "Подготовка посева",
-          "category": "Этапы осмотра полей по культуре",
-          "categoryId": 2
-        },
-        {
-          "id": 2,
-          "name": "Посев",
-          "category": "Этапы осмотра полей по культуре",
-          "categoryId": 2
-        },
-        {
-          "id": 3,
-          "name": "Всходы",
-          "category": "Этапы осмотра полей по культуре",
-          "categoryId": 2
-        },
-        {
-          "id": 1,
-          "name": "Вредители",
-          "category": "Обнаружение проблемы",
-          "categoryId": 3
-        },
-        {
-          "id": 2,
-          "name": "Болезни",
-          "category": "Обнаружение проблемы",
-          "categoryId": 3
-        },
-        {
-          "id": 3,
-          "name": "Качество всходов",
-          "category": "Обнаружение проблемы",
-          "categoryId": 3
-        }
-      ],
-      "getHandBookContractComplications": [
-        {
-          "id": 1,
-          "name": "Не устраивают цены"
-        },
-        {
-          "id": 2,
-          "name": "Не устраивают условия оплаты"
-        },
-        {
-          "id": 3,
-          "name": "Предложение КП"
-        },
-        {
-          "id": 4,
-          "name": "Лоялен к конкурентам"
-        },
-        {
-          "id": 5,
-          "name": "Нет денег (у клиента)"
-        },
-        {
-          "id": 6,
-          "name": "Не устраивают условия поставки"
-        },
-        {
-          "id": 7,
-          "name": "Нет готовности к переговорам"
-        },
-        {
-          "id": 8,
-          "name": "Другое"
-        }
-      ],
-      "getHandBookMeetingRecommendations": [
-        {
-          "id": 1,
-          "name": "Была ли агроконсультация?"
-        },
-        {
-          "id": 2,
-          "name": "Были ли рекомендованы товары?"
-        },
-        {
-          "id": 3,
-          "name": "Была ли договоренность с клиентом?"
-        },
-        {
-          "id": 4,
-          "name": "Нужно ли создать себе задачу?"
-        }
-      ]
     }
-  }
 }
