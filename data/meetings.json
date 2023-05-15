@@ -82,8 +82,8 @@
                     "clientIin": 123456789,
                     "managerId": 456,
                     "managerName": "Bob Johnson",
-                    "startVisit": "2023-05-13T15:34:57.344Z",
-                    "finishVisit": "2023-05-13T15:35:01.435Z",
+                    "startVisit": "2023-05-13T16:03:50.499Z",
+                    "finishVisit": "2023-05-13T16:03:50.968Z",
                     "statusVisit": false,
                     "visitTypeId": 1,
                     "visitTypeName": "Regular",
@@ -313,6 +313,48 @@
                     "path": "uploads/ba3be1adc388153561e73b2a40768579",
                     "date": "2023-05-13T15:38:39.773Z",
                     "visitId": "1"
+                },
+                {
+                    "name": "DF2E6D9A-611E-4F25-ABCA-8D5C99286755.jpeg",
+                    "path": "uploads/7e17d6f7244a62e0623df82fb6a425b6",
+                    "date": "2023-05-13T15:46:29.590Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "qr-QR2839542111.pdf",
+                    "path": "uploads/1a4cc332d0afd395b039b445909a7061",
+                    "date": "2023-05-13T15:46:38.669Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "qr-QR2839542111.pdf",
+                    "path": "uploads/188c7d0e898fbb7cbb276cf455d6f4c5",
+                    "date": "2023-05-13T15:52:04.343Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "qr-QR2839542111.pdf",
+                    "path": "uploads/e7717be400d93211c614cc3a64cf1a8c",
+                    "date": "2023-05-13T15:56:21.030Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "qr-QR2839542111.pdf.pdf",
+                    "path": "uploads/0322b3fa1591f19f285f7da363e3ca63",
+                    "date": "2023-05-13T15:59:27.790Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "qr-QR2839542111.pdf.pdf",
+                    "path": "uploads/37e7854c5ef01ef3e6dece588de03d3b",
+                    "date": "2023-05-13T16:02:45.671Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "76F488B4-DC34-473D-9803-AC5E91F600B9.jpeg",
+                    "path": "uploads/5c866f5f5a6bda0792bc64e13069bd4c",
+                    "date": "2023-05-13T16:03:48.036Z",
+                    "visitId": "1"
                 }
             ]
         },
@@ -469,6 +511,540 @@
                     "name": "Нужно ли создать себе задачу?"
                 }
             ]
+        },
+        "client": {
+            "getContractAnalysis": {
+                "1": [{
+                        "id": 1,
+                        "season": "Summer",
+                        "contracts": [
+                          {
+                            "id": 1001,
+                            "margin": "10%",
+                            "sum": "10000",
+                            "conditionPay": "Monthly"
+                          },
+                          {
+                            "id": 1002,
+                            "margin": "15%",
+                            "sum": "15000",
+                            "conditionPay": "Quarterly"
+                          }
+                        ],
+                        "avgContracts": {
+                          "sum": "12500",
+                          "margin": "12.5%",
+                          "season": 3
+                        }
+                
+                      },
+                      {
+                        "id": 2,
+                        "season": "Summer",
+                        "contracts": [
+                          {
+                            "id": 1001,
+                            "margin": "10%",
+                            "sum": "10000",
+                            "conditionPay": "Monthly"
+                          },
+                          {
+                            "id": 1002,
+                            "margin": "15%",
+                            "sum": "15000",
+                            "conditionPay": "Quarterly"
+                          }
+                        ],
+                        "avgContracts": {
+                          "sum": "12500",
+                          "margin": "12.5%",
+                          "season": 3
+                        }
+                
+                      }
+                ],
+                "2": [{
+                    "id": 1,
+                    "season": "Summer",
+                    "contracts": [
+                      {
+                        "id": 1001,
+                        "margin": "10%",
+                        "sum": "10000",
+                        "conditionPay": "Monthly"
+                      },
+                      {
+                        "id": 1002,
+                        "margin": "15%",
+                        "sum": "15000",
+                        "conditionPay": "Quarterly"
+                      }
+                    ],
+                    "avgContracts": {
+                      "sum": "12500",
+                      "margin": "12.5%",
+                      "season": 3
+                    }
+            
+                  },
+                  {
+                    "id": 2,
+                    "season": "Summer",
+                    "contracts": [
+                      {
+                        "id": 1001,
+                        "margin": "10%",
+                        "sum": "10000",
+                        "conditionPay": "Monthly"
+                      },
+                      {
+                        "id": 1002,
+                        "margin": "15%",
+                        "sum": "15000",
+                        "conditionPay": "Quarterly"
+                      }
+                    ],
+                    "avgContracts": {
+                      "sum": "12500",
+                      "margin": "12.5%",
+                      "season": 3
+                    }
+            
+                  }
+            ]
+            },
+            "getSubscidesList": {
+                "1": [{
+                    "season": "2023",
+                    "categories": [
+                      {
+                        "category": "Category A",
+                        "contracts": [
+                          {
+                            "clientName": "Client A",
+                            "region": "Region A",
+                            "usageArea": "Area A",
+                            "providerName": "Provider A",
+                            "productName": "Product A",
+                            "productPrice": "10.99",
+                            "sum": "54.95",
+                            "count": "5",
+                            "unit": "Unit A"
+                          },
+                          {
+                            "clientName": "Client B",
+                            "region": "Region B",
+                            "usageArea": "Area B",
+                            "providerName": "Provider B",
+                            "productName": "Product B",
+                            "productPrice": "7.99",
+                            "sum": "39.95",
+                            "count": "5",
+                            "unit": "Unit B"
+                          }
+                        ]
+                      },
+                      {
+                        "category": "Category B",
+                        "contracts": [
+                          {
+                            "clientName": "Client C",
+                            "region": "Region C",
+                            "usageArea": "Area C",
+                            "providerName": "Provider C",
+                            "productName": "Product C",
+                            "productPrice": "12.99",
+                            "sum": "64.95",
+                            "count": "5",
+                            "unit": "Unit C"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "season": "2022",
+                    "categories": [
+                      {
+                        "category": "Category A",
+                        "contracts": [
+                          {
+                            "clientName": "Client A",
+                            "region": "Region A",
+                            "usageArea": "Area A",
+                            "providerName": "Provider A",
+                            "productName": "Product A",
+                            "productPrice": "10.99",
+                            "sum": "54.95",
+                            "count": "5",
+                            "unit": "Unit A"
+                          },
+                          {
+                            "clientName": "Client B",
+                            "region": "Region B",
+                            "usageArea": "Area B",
+                            "providerName": "Provider B",
+                            "productName": "Product B",
+                            "productPrice": "7.99",
+                            "sum": "39.95",
+                            "count": "5",
+                            "unit": "Unit B"
+                          }
+                        ]
+                      },
+                      {
+                        "category": "Category B",
+                        "contracts": [
+                          {
+                            "clientName": "Client C",
+                            "region": "Region C",
+                            "usageArea": "Area C",
+                            "providerName": "Provider C",
+                            "productName": "Product C",
+                            "productPrice": "12.99",
+                            "sum": "64.95",
+                            "count": "5",
+                            "unit": "Unit C"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                  ],
+                  "2": [{
+                    "season": "2023",
+                    "categories": [
+                      {
+                        "category": "Category A",
+                        "contracts": [
+                          {
+                            "clientName": "Client A",
+                            "region": "Region A",
+                            "usageArea": "Area A",
+                            "providerName": "Provider A",
+                            "productName": "Product A",
+                            "productPrice": "10.99",
+                            "sum": "54.95",
+                            "count": "5",
+                            "unit": "Unit A"
+                          },
+                          {
+                            "clientName": "Client B",
+                            "region": "Region B",
+                            "usageArea": "Area B",
+                            "providerName": "Provider B",
+                            "productName": "Product B",
+                            "productPrice": "7.99",
+                            "sum": "39.95",
+                            "count": "5",
+                            "unit": "Unit B"
+                          }
+                        ]
+                      },
+                      {
+                        "category": "Category B",
+                        "contracts": [
+                          {
+                            "clientName": "Client C",
+                            "region": "Region C",
+                            "usageArea": "Area C",
+                            "providerName": "Provider C",
+                            "productName": "Product C",
+                            "productPrice": "12.99",
+                            "sum": "64.95",
+                            "count": "5",
+                            "unit": "Unit C"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "season": "2022",
+                    "categories": [
+                      {
+                        "category": "Category A",
+                        "contracts": [
+                          {
+                            "clientName": "Client A",
+                            "region": "Region A",
+                            "usageArea": "Area A",
+                            "providerName": "Provider A",
+                            "productName": "Product A",
+                            "productPrice": "10.99",
+                            "sum": "54.95",
+                            "count": "5",
+                            "unit": "Unit A"
+                          },
+                          {
+                            "clientName": "Client B",
+                            "region": "Region B",
+                            "usageArea": "Area B",
+                            "providerName": "Provider B",
+                            "productName": "Product B",
+                            "productPrice": "7.99",
+                            "sum": "39.95",
+                            "count": "5",
+                            "unit": "Unit B"
+                          }
+                        ]
+                      },
+                      {
+                        "category": "Category B",
+                        "contracts": [
+                          {
+                            "clientName": "Client C",
+                            "region": "Region C",
+                            "usageArea": "Area C",
+                            "providerName": "Provider C",
+                            "productName": "Product C",
+                            "productPrice": "12.99",
+                            "sum": "64.95",
+                            "count": "5",
+                            "unit": "Unit C"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                  ]
+            },
+            "getCropRotation": {
+                "1": [
+                
+                    {
+                        "id": 1,
+                        "season": "Summer",
+                        "cultures": [
+                        {
+                        "id": "1",
+                        "culture": "Corn",
+                        "area": "10 acres"
+                        },
+                        {
+                        "id": "2",
+                        "culture": "Soybeans",
+                        "area": "20 acres"
+                        }
+                        ]
+                        },
+                                  
+                    {
+                        "id": 2,
+                        "season": "Summer",
+                        "cultures": [
+                        {
+                        "id": "1",
+                        "culture": "Corn",
+                        "area": "10 acres"
+                        },
+                        {
+                        "id": "2",
+                        "culture": "Soybeans",
+                        "area": "20 acres"
+                        }
+                        ]
+                        }
+                  
+              
+            ],
+            "2": [
+                
+                {
+                    "id": 1,
+                    "season": "Summer",
+                    "cultures": [
+                    {
+                    "id": "1",
+                    "culture": "Corn",
+                    "area": "10 acres"
+                    },
+                    {
+                    "id": "2",
+                    "culture": "Soybeans",
+                    "area": "20 acres"
+                    }
+                    ]
+                    }
+              
+          
+        ]
+
+            },
+            "getContract":{
+                "1": [
+                    {
+                        "id": "c1a3b8c7-7f90-4b3c-bc34-f08b999748f1",
+                        "season": "Summer",
+                        "categories": [
+                            {
+                                "id": "361c5247-6f5f-4b0b-9c7f-7149c24f7f7f",
+                                "category": "Fruits",
+                                "contracts": [
+                                    {
+                                        "id": "5c10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Strawberries",
+                                        "avgPrice": "2.50",
+                                        "count": "100"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Peaches",
+                                        "avgPrice": "1.75",
+                                        "count": "200"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "9a3a5247-8f5f-6b0b-5d7f-7149c24f7f7f",
+                                "category": "Vegetables",
+                                "contracts": [
+                                    {
+                                        "id": "2c10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Cucumbers",
+                                        "avgPrice": "1.00",
+                                        "count": "150"
+                                    },
+                                    {
+                                        "id": "ac10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Tomatoes",
+                                        "avgPrice": "1.25",
+                                        "count": "300"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "c1a3b8c7-7f90-4b3c-bc34-f08b999748f1",
+                        "season": "Summer",
+                        "categories": [
+                            {
+                                "id": "361c5247-6f5f-4b0b-9c7f-7149c24f7f7f",
+                                "category": "Fruits",
+                                "contracts": [
+                                    {
+                                        "id": "5c10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Strawberries",
+                                        "avgPrice": "2.50",
+                                        "count": "100"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Peaches",
+                                        "avgPrice": "1.75",
+                                        "count": "200"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "9a3a5247-8f5f-6b0b-5d7f-7149c24f7f7f",
+                                "category": "Vegetables",
+                                "contracts": [
+                                    {
+                                        "id": "2c10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Cucumbers",
+                                        "avgPrice": "1.00",
+                                        "count": "150"
+                                    },
+                                    {
+                                        "id": "ac10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Tomatoes",
+                                        "avgPrice": "1.25",
+                                        "count": "300"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ],
+                "2": [
+                    {
+                        "id": "c1a3b8c7-7f90-4b3c-bc34-f08b999748f1",
+                        "season": "Summer",
+                        "categories": [
+                            {
+                                "id": "361c5247-6f5f-4b0b-9c7f-7149c24f7f7f",
+                                "category": "Fruits",
+                                "contracts": [
+                                    {
+                                        "id": "5c10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Strawberries",
+                                        "avgPrice": "2.50",
+                                        "count": "100"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Peaches",
+                                        "avgPrice": "1.75",
+                                        "count": "200"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "9a3a5247-8f5f-6b0b-5d7f-7149c24f7f7f",
+                                "category": "Vegetables",
+                                "contracts": [
+                                    {
+                                        "id": "2c10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Cucumbers",
+                                        "avgPrice": "1.00",
+                                        "count": "150"
+                                    },
+                                    {
+                                        "id": "ac10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Tomatoes",
+                                        "avgPrice": "1.25",
+                                        "count": "300"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "c1a3b8c7-7f90-4b3c-bc34-f08b999748f1",
+                        "season": "Summer",
+                        "categories": [
+                            {
+                                "id": "361c5247-6f5f-4b0b-9c7f-7149c24f7f7f",
+                                "category": "Fruits",
+                                "contracts": [
+                                    {
+                                        "id": "5c10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Strawberries",
+                                        "avgPrice": "2.50",
+                                        "count": "100"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Peaches",
+                                        "avgPrice": "1.75",
+                                        "count": "200"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "9a3a5247-8f5f-6b0b-5d7f-7149c24f7f7f",
+                                "category": "Vegetables",
+                                "contracts": [
+                                    {
+                                        "id": "2c10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Cucumbers",
+                                        "avgPrice": "1.00",
+                                        "count": "150"
+                                    },
+                                    {
+                                        "id": "ac10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Tomatoes",
+                                        "avgPrice": "1.25",
+                                        "count": "300"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
         }
     }
 }

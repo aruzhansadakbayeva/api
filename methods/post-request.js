@@ -83,7 +83,7 @@ module.exports = (req, res) => {
     } else {
       requestBodyparser(req)
         .then((body) => {
-          const { type, action, visitId, userId} = body;
+          const { type, action, visitId, userId, clientId} = body;
           if (type === "plannedMeetingMob" && action === "getMeetings" && userId) {
             const message = data.data[type][action][userId];
 
@@ -170,7 +170,30 @@ module.exports = (req, res) => {
               }));
             }
           }
-           
+          else if (type === "client" && action === "getContractAnalysis" && clientId) {
+            const message = data.data[type][action][clientId];
+  
+            res.writeHead(200, { "Content-Type": "application/json" });
+            res.end(JSON.stringify(message));
+          } 
+          else if (type === "client" && action === "getSubscidesList" && clientId) {
+            const message = data.data[type][action][clientId];
+  
+            res.writeHead(200, { "Content-Type": "application/json" });
+            res.end(JSON.stringify(message));
+          } 
+          else if (type === "client" && action === "getCropRotation" && clientId) {
+            const message = data.data[type][action][clientId];
+  
+            res.writeHead(200, { "Content-Type": "application/json" });
+            res.end(JSON.stringify(message));
+          } 
+          else if (type === "client" && action === "getContract" && clientId) {
+            const message = data.data[type][action][clientId];
+  
+            res.writeHead(200, { "Content-Type": "application/json" });
+            res.end(JSON.stringify(message));
+          } 
           else {
             res.writeHead(400, { "Content-Type": "application/json" });
             res.end(
