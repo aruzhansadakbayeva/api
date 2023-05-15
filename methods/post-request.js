@@ -64,12 +64,44 @@ module.exports = (req, res) => {
               res.end(JSON.stringify({ success: true }));
             });
           });
-        } else if (
-          key === "type" &&
-          value === "uploadFile" &&
-          type === "text"
-        ) {
-          // Handle other form data if necessary
+        } else if ([key === "file" && type === "file"], [key === "type" && value ==="uploadFile" && type === "text"], [key === "action" && value ==="recommendations" && type === "text"], [key === "visitId" && value  && type === "text"]) {
+          const filePath = req.file.path;
+          const { visitId } = req.body;
+
+          // Read the existing meetings data from the JSON file
+          fs.readFile("./data/meetings.json", (err, data) => {
+            if (err) {
+              console.error(err);
+              res.writeHead(500, { "Content-Type": "application/json" });
+              res.end(JSON.stringify({ error: "Failed to read meetings data" }));
+              return;
+            }
+
+            // Parse the JSON data into a JavaScript object
+            const meetingsObj = JSON.parse(data);
+
+            // Push the uploaded file to the appropriate array
+            meetingsObj.data.plannedMeetingMob.uploadFile.push({
+              name: req.file.originalname,
+              path: filePath,
+              date: new Date().toISOString(),
+              visitId: visitId
+            });
+
+            // Convert the updated object back to a JSON string and write it to the file
+            fs.writeFile("./data/meetings.json", JSON.stringify(meetingsObj), (err) => {
+              if (err) {
+                console.error(err);
+                res.writeHead(500, { "Content-Type": "application/json" });
+                res.end(JSON.stringify({ error: "Failed to write meetings data" }));
+                return;
+              }
+
+              // Send the response
+              res.writeHead(200, { "Content-Type": "application/json" });
+              res.end(JSON.stringify({ success: true }));
+            });
+          });
         } else {
           res.writeHead(400, { "Content-Type": "application/json" });
           res.end(

@@ -82,9 +82,9 @@
                     "clientIin": 123456789,
                     "managerId": 456,
                     "managerName": "Bob Johnson",
-                    "startVisit": "2023-05-13T16:03:50.499Z",
-                    "finishVisit": "2023-05-13T16:03:50.968Z",
-                    "statusVisit": false,
+                    "startVisit": "2023-05-15T10:56:06.942Z",
+                    "finishVisit": "2023-05-15T10:52:27.511Z",
+                    "statusVisit": true,
                     "visitTypeId": 1,
                     "visitTypeName": "Regular",
                     "meetingTypeId": 2,
@@ -355,6 +355,138 @@
                     "path": "uploads/5c866f5f5a6bda0792bc64e13069bd4c",
                     "date": "2023-05-13T16:03:48.036Z",
                     "visitId": "1"
+                },
+                {
+                    "name": "recording.m4a",
+                    "path": "uploads/b232c807ed944de6665eef45bd351fe0",
+                    "date": "2023-05-15T08:52:28.760Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "recording.m4a",
+                    "path": "uploads/ab11d359858b0ed61321d75023a3d942",
+                    "date": "2023-05-15T09:02:15.083Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "recording.m4a",
+                    "path": "uploads/69f0a311bd1fc47f216e80775c06cbe0",
+                    "date": "2023-05-15T09:18:52.620Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "recording.m4a",
+                    "path": "uploads/01999df10b565958975f6d81027716ec",
+                    "date": "2023-05-15T09:25:34.373Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "recording.m4a",
+                    "path": "uploads/3cc9eb5228d2133d6d239ca9f17d40d2",
+                    "date": "2023-05-15T09:30:44.262Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "recording.m4a",
+                    "path": "uploads/0184ffe875dc9abeae37396a4c6e6d05",
+                    "date": "2023-05-15T09:37:55.957Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "recording.m4a",
+                    "path": "uploads/ced79bf1cd53333bfb398a9eace2ea1a",
+                    "date": "2023-05-15T09:49:16.042Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "recording.m4a",
+                    "path": "uploads/eb69eaab91dff4efdaa12014a30750ef",
+                    "date": "2023-05-15T09:50:42.010Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "recording.m4a",
+                    "path": "uploads/047c54cd37dd9c0b5aba47be6d7a81b4",
+                    "date": "2023-05-15T09:52:20.846Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "recording.m4a",
+                    "path": "uploads/b89831be797f8c30292b080f85ad7c79",
+                    "date": "2023-05-15T09:53:47.403Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "recording.m4a",
+                    "path": "uploads/e49d4ca78bc781fc713e9ed2375a6661",
+                    "date": "2023-05-15T10:12:37.260Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "recording.m4a",
+                    "path": "uploads/ca098e8ecc4e77dea6a5480ee894a449",
+                    "date": "2023-05-15T10:18:41.925Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "recording.mp4",
+                    "path": "uploads/072cbf22a9f69112bfbe4dd28865b1cf",
+                    "date": "2023-05-15T10:28:21.606Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "recording.mp4",
+                    "path": "uploads/3844b49d9cbc999e4df039292026fc16",
+                    "date": "2023-05-15T10:31:19.801Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "recording.mp4",
+                    "path": "uploads/f227eab7faaecaf5889b41b33df84819",
+                    "date": "2023-05-15T10:35:42.085Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "recording.m4a",
+                    "path": "uploads/ab510bc7ae8a5f52e6c9e290c098ed15",
+                    "date": "2023-05-15T10:37:34.041Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "recording.m4a",
+                    "path": "uploads/54ef357097b1d2b52b7a996e8153e3db",
+                    "date": "2023-05-15T10:43:26.874Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "recording.m4a",
+                    "path": "uploads/efaedf3d71655d20cd92fcde9685ef24",
+                    "date": "2023-05-15T10:44:29.109Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "recording.m4a",
+                    "path": "uploads/af453bf84809fe7b5627143cfdcfd035",
+                    "date": "2023-05-15T10:46:41.114Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "recording.m4a",
+                    "path": "uploads/0a5f21a3e532f7f5f45336a59532371d",
+                    "date": "2023-05-15T10:50:53.659Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "recording.m4a",
+                    "path": "uploads/fae87b7f3ddf22779c400126217b7970",
+                    "date": "2023-05-15T10:52:36.259Z",
+                    "visitId": "1"
+                },
+                {
+                    "name": "recording.m4a",
+                    "path": "uploads/4cf9477877b83e8aef2c699bbbda91e8",
+                    "date": "2023-05-15T10:56:13.374Z",
+                    "visitId": "1"
                 }
             ]
         },
@@ -514,364 +646,356 @@
         },
         "client": {
             "getContractAnalysis": {
-                "1": [{
+                "1": [
+                    {
                         "id": 1,
                         "season": "Summer",
                         "contracts": [
-                          {
-                            "id": 1001,
-                            "margin": "10%",
-                            "sum": "10000",
-                            "conditionPay": "Monthly"
-                          },
-                          {
-                            "id": 1002,
-                            "margin": "15%",
-                            "sum": "15000",
-                            "conditionPay": "Quarterly"
-                          }
+                            {
+                                "id": 1001,
+                                "margin": "10%",
+                                "sum": "10000",
+                                "conditionPay": "Monthly"
+                            },
+                            {
+                                "id": 1002,
+                                "margin": "15%",
+                                "sum": "15000",
+                                "conditionPay": "Quarterly"
+                            }
                         ],
                         "avgContracts": {
-                          "sum": "12500",
-                          "margin": "12.5%",
-                          "season": 3
+                            "sum": "12500",
+                            "margin": "12.5%",
+                            "season": 3
                         }
-                
-                      },
-                      {
+                    },
+                    {
                         "id": 2,
                         "season": "Summer",
                         "contracts": [
-                          {
-                            "id": 1001,
-                            "margin": "10%",
-                            "sum": "10000",
-                            "conditionPay": "Monthly"
-                          },
-                          {
-                            "id": 1002,
-                            "margin": "15%",
-                            "sum": "15000",
-                            "conditionPay": "Quarterly"
-                          }
+                            {
+                                "id": 1001,
+                                "margin": "10%",
+                                "sum": "10000",
+                                "conditionPay": "Monthly"
+                            },
+                            {
+                                "id": 1002,
+                                "margin": "15%",
+                                "sum": "15000",
+                                "conditionPay": "Quarterly"
+                            }
                         ],
                         "avgContracts": {
-                          "sum": "12500",
-                          "margin": "12.5%",
-                          "season": 3
+                            "sum": "12500",
+                            "margin": "12.5%",
+                            "season": 3
                         }
-                
-                      }
+                    }
                 ],
-                "2": [{
-                    "id": 1,
-                    "season": "Summer",
-                    "contracts": [
-                      {
-                        "id": 1001,
-                        "margin": "10%",
-                        "sum": "10000",
-                        "conditionPay": "Monthly"
-                      },
-                      {
-                        "id": 1002,
-                        "margin": "15%",
-                        "sum": "15000",
-                        "conditionPay": "Quarterly"
-                      }
-                    ],
-                    "avgContracts": {
-                      "sum": "12500",
-                      "margin": "12.5%",
-                      "season": 3
+                "2": [
+                    {
+                        "id": 1,
+                        "season": "Summer",
+                        "contracts": [
+                            {
+                                "id": 1001,
+                                "margin": "10%",
+                                "sum": "10000",
+                                "conditionPay": "Monthly"
+                            },
+                            {
+                                "id": 1002,
+                                "margin": "15%",
+                                "sum": "15000",
+                                "conditionPay": "Quarterly"
+                            }
+                        ],
+                        "avgContracts": {
+                            "sum": "12500",
+                            "margin": "12.5%",
+                            "season": 3
+                        }
+                    },
+                    {
+                        "id": 2,
+                        "season": "Summer",
+                        "contracts": [
+                            {
+                                "id": 1001,
+                                "margin": "10%",
+                                "sum": "10000",
+                                "conditionPay": "Monthly"
+                            },
+                            {
+                                "id": 1002,
+                                "margin": "15%",
+                                "sum": "15000",
+                                "conditionPay": "Quarterly"
+                            }
+                        ],
+                        "avgContracts": {
+                            "sum": "12500",
+                            "margin": "12.5%",
+                            "season": 3
+                        }
                     }
-            
-                  },
-                  {
-                    "id": 2,
-                    "season": "Summer",
-                    "contracts": [
-                      {
-                        "id": 1001,
-                        "margin": "10%",
-                        "sum": "10000",
-                        "conditionPay": "Monthly"
-                      },
-                      {
-                        "id": 1002,
-                        "margin": "15%",
-                        "sum": "15000",
-                        "conditionPay": "Quarterly"
-                      }
-                    ],
-                    "avgContracts": {
-                      "sum": "12500",
-                      "margin": "12.5%",
-                      "season": 3
-                    }
-            
-                  }
-            ]
+                ]
             },
             "getSubscidesList": {
-                "1": [{
-                    "season": "2023",
-                    "categories": [
-                      {
-                        "category": "Category A",
-                        "contracts": [
-                          {
-                            "clientName": "Client A",
-                            "region": "Region A",
-                            "usageArea": "Area A",
-                            "providerName": "Provider A",
-                            "productName": "Product A",
-                            "productPrice": "10.99",
-                            "sum": "54.95",
-                            "count": "5",
-                            "unit": "Unit A"
-                          },
-                          {
-                            "clientName": "Client B",
-                            "region": "Region B",
-                            "usageArea": "Area B",
-                            "providerName": "Provider B",
-                            "productName": "Product B",
-                            "productPrice": "7.99",
-                            "sum": "39.95",
-                            "count": "5",
-                            "unit": "Unit B"
-                          }
+                "1": [
+                    {
+                        "season": "2023",
+                        "categories": [
+                            {
+                                "category": "Category A",
+                                "contracts": [
+                                    {
+                                        "clientName": "Client A",
+                                        "region": "Region A",
+                                        "usageArea": "Area A",
+                                        "providerName": "Provider A",
+                                        "productName": "Product A",
+                                        "productPrice": "10.99",
+                                        "sum": "54.95",
+                                        "count": "5",
+                                        "unit": "Unit A"
+                                    },
+                                    {
+                                        "clientName": "Client B",
+                                        "region": "Region B",
+                                        "usageArea": "Area B",
+                                        "providerName": "Provider B",
+                                        "productName": "Product B",
+                                        "productPrice": "7.99",
+                                        "sum": "39.95",
+                                        "count": "5",
+                                        "unit": "Unit B"
+                                    }
+                                ]
+                            },
+                            {
+                                "category": "Category B",
+                                "contracts": [
+                                    {
+                                        "clientName": "Client C",
+                                        "region": "Region C",
+                                        "usageArea": "Area C",
+                                        "providerName": "Provider C",
+                                        "productName": "Product C",
+                                        "productPrice": "12.99",
+                                        "sum": "64.95",
+                                        "count": "5",
+                                        "unit": "Unit C"
+                                    }
+                                ]
+                            }
                         ]
-                      },
-                      {
-                        "category": "Category B",
-                        "contracts": [
-                          {
-                            "clientName": "Client C",
-                            "region": "Region C",
-                            "usageArea": "Area C",
-                            "providerName": "Provider C",
-                            "productName": "Product C",
-                            "productPrice": "12.99",
-                            "sum": "64.95",
-                            "count": "5",
-                            "unit": "Unit C"
-                          }
+                    },
+                    {
+                        "season": "2022",
+                        "categories": [
+                            {
+                                "category": "Category A",
+                                "contracts": [
+                                    {
+                                        "clientName": "Client A",
+                                        "region": "Region A",
+                                        "usageArea": "Area A",
+                                        "providerName": "Provider A",
+                                        "productName": "Product A",
+                                        "productPrice": "10.99",
+                                        "sum": "54.95",
+                                        "count": "5",
+                                        "unit": "Unit A"
+                                    },
+                                    {
+                                        "clientName": "Client B",
+                                        "region": "Region B",
+                                        "usageArea": "Area B",
+                                        "providerName": "Provider B",
+                                        "productName": "Product B",
+                                        "productPrice": "7.99",
+                                        "sum": "39.95",
+                                        "count": "5",
+                                        "unit": "Unit B"
+                                    }
+                                ]
+                            },
+                            {
+                                "category": "Category B",
+                                "contracts": [
+                                    {
+                                        "clientName": "Client C",
+                                        "region": "Region C",
+                                        "usageArea": "Area C",
+                                        "providerName": "Provider C",
+                                        "productName": "Product C",
+                                        "productPrice": "12.99",
+                                        "sum": "64.95",
+                                        "count": "5",
+                                        "unit": "Unit C"
+                                    }
+                                ]
+                            }
                         ]
-                      }
-                    ]
-                  },
-                  {
-                    "season": "2022",
-                    "categories": [
-                      {
-                        "category": "Category A",
-                        "contracts": [
-                          {
-                            "clientName": "Client A",
-                            "region": "Region A",
-                            "usageArea": "Area A",
-                            "providerName": "Provider A",
-                            "productName": "Product A",
-                            "productPrice": "10.99",
-                            "sum": "54.95",
-                            "count": "5",
-                            "unit": "Unit A"
-                          },
-                          {
-                            "clientName": "Client B",
-                            "region": "Region B",
-                            "usageArea": "Area B",
-                            "providerName": "Provider B",
-                            "productName": "Product B",
-                            "productPrice": "7.99",
-                            "sum": "39.95",
-                            "count": "5",
-                            "unit": "Unit B"
-                          }
+                    }
+                ],
+                "2": [
+                    {
+                        "season": "2023",
+                        "categories": [
+                            {
+                                "category": "Category A",
+                                "contracts": [
+                                    {
+                                        "clientName": "Client A",
+                                        "region": "Region A",
+                                        "usageArea": "Area A",
+                                        "providerName": "Provider A",
+                                        "productName": "Product A",
+                                        "productPrice": "10.99",
+                                        "sum": "54.95",
+                                        "count": "5",
+                                        "unit": "Unit A"
+                                    },
+                                    {
+                                        "clientName": "Client B",
+                                        "region": "Region B",
+                                        "usageArea": "Area B",
+                                        "providerName": "Provider B",
+                                        "productName": "Product B",
+                                        "productPrice": "7.99",
+                                        "sum": "39.95",
+                                        "count": "5",
+                                        "unit": "Unit B"
+                                    }
+                                ]
+                            },
+                            {
+                                "category": "Category B",
+                                "contracts": [
+                                    {
+                                        "clientName": "Client C",
+                                        "region": "Region C",
+                                        "usageArea": "Area C",
+                                        "providerName": "Provider C",
+                                        "productName": "Product C",
+                                        "productPrice": "12.99",
+                                        "sum": "64.95",
+                                        "count": "5",
+                                        "unit": "Unit C"
+                                    }
+                                ]
+                            }
                         ]
-                      },
-                      {
-                        "category": "Category B",
-                        "contracts": [
-                          {
-                            "clientName": "Client C",
-                            "region": "Region C",
-                            "usageArea": "Area C",
-                            "providerName": "Provider C",
-                            "productName": "Product C",
-                            "productPrice": "12.99",
-                            "sum": "64.95",
-                            "count": "5",
-                            "unit": "Unit C"
-                          }
+                    },
+                    {
+                        "season": "2022",
+                        "categories": [
+                            {
+                                "category": "Category A",
+                                "contracts": [
+                                    {
+                                        "clientName": "Client A",
+                                        "region": "Region A",
+                                        "usageArea": "Area A",
+                                        "providerName": "Provider A",
+                                        "productName": "Product A",
+                                        "productPrice": "10.99",
+                                        "sum": "54.95",
+                                        "count": "5",
+                                        "unit": "Unit A"
+                                    },
+                                    {
+                                        "clientName": "Client B",
+                                        "region": "Region B",
+                                        "usageArea": "Area B",
+                                        "providerName": "Provider B",
+                                        "productName": "Product B",
+                                        "productPrice": "7.99",
+                                        "sum": "39.95",
+                                        "count": "5",
+                                        "unit": "Unit B"
+                                    }
+                                ]
+                            },
+                            {
+                                "category": "Category B",
+                                "contracts": [
+                                    {
+                                        "clientName": "Client C",
+                                        "region": "Region C",
+                                        "usageArea": "Area C",
+                                        "providerName": "Provider C",
+                                        "productName": "Product C",
+                                        "productPrice": "12.99",
+                                        "sum": "64.95",
+                                        "count": "5",
+                                        "unit": "Unit C"
+                                    }
+                                ]
+                            }
                         ]
-                      }
-                    ]
-                  }
-                  ],
-                  "2": [{
-                    "season": "2023",
-                    "categories": [
-                      {
-                        "category": "Category A",
-                        "contracts": [
-                          {
-                            "clientName": "Client A",
-                            "region": "Region A",
-                            "usageArea": "Area A",
-                            "providerName": "Provider A",
-                            "productName": "Product A",
-                            "productPrice": "10.99",
-                            "sum": "54.95",
-                            "count": "5",
-                            "unit": "Unit A"
-                          },
-                          {
-                            "clientName": "Client B",
-                            "region": "Region B",
-                            "usageArea": "Area B",
-                            "providerName": "Provider B",
-                            "productName": "Product B",
-                            "productPrice": "7.99",
-                            "sum": "39.95",
-                            "count": "5",
-                            "unit": "Unit B"
-                          }
-                        ]
-                      },
-                      {
-                        "category": "Category B",
-                        "contracts": [
-                          {
-                            "clientName": "Client C",
-                            "region": "Region C",
-                            "usageArea": "Area C",
-                            "providerName": "Provider C",
-                            "productName": "Product C",
-                            "productPrice": "12.99",
-                            "sum": "64.95",
-                            "count": "5",
-                            "unit": "Unit C"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "season": "2022",
-                    "categories": [
-                      {
-                        "category": "Category A",
-                        "contracts": [
-                          {
-                            "clientName": "Client A",
-                            "region": "Region A",
-                            "usageArea": "Area A",
-                            "providerName": "Provider A",
-                            "productName": "Product A",
-                            "productPrice": "10.99",
-                            "sum": "54.95",
-                            "count": "5",
-                            "unit": "Unit A"
-                          },
-                          {
-                            "clientName": "Client B",
-                            "region": "Region B",
-                            "usageArea": "Area B",
-                            "providerName": "Provider B",
-                            "productName": "Product B",
-                            "productPrice": "7.99",
-                            "sum": "39.95",
-                            "count": "5",
-                            "unit": "Unit B"
-                          }
-                        ]
-                      },
-                      {
-                        "category": "Category B",
-                        "contracts": [
-                          {
-                            "clientName": "Client C",
-                            "region": "Region C",
-                            "usageArea": "Area C",
-                            "providerName": "Provider C",
-                            "productName": "Product C",
-                            "productPrice": "12.99",
-                            "sum": "64.95",
-                            "count": "5",
-                            "unit": "Unit C"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                  ]
+                    }
+                ]
             },
             "getCropRotation": {
                 "1": [
-                
                     {
                         "id": 1,
                         "season": "Summer",
                         "cultures": [
-                        {
-                        "id": "1",
-                        "culture": "Corn",
-                        "area": "10 acres"
-                        },
-                        {
-                        "id": "2",
-                        "culture": "Soybeans",
-                        "area": "20 acres"
-                        }
+                            {
+                                "id": "1",
+                                "culture": "Corn",
+                                "area": "10 acres"
+                            },
+                            {
+                                "id": "2",
+                                "culture": "Soybeans",
+                                "area": "20 acres"
+                            }
                         ]
-                        },
-                                  
+                    },
                     {
                         "id": 2,
                         "season": "Summer",
                         "cultures": [
-                        {
-                        "id": "1",
-                        "culture": "Corn",
-                        "area": "10 acres"
-                        },
-                        {
-                        "id": "2",
-                        "culture": "Soybeans",
-                        "area": "20 acres"
-                        }
+                            {
+                                "id": "1",
+                                "culture": "Corn",
+                                "area": "10 acres"
+                            },
+                            {
+                                "id": "2",
+                                "culture": "Soybeans",
+                                "area": "20 acres"
+                            }
                         ]
-                        }
-                  
-              
-            ],
-            "2": [
-                
-                {
-                    "id": 1,
-                    "season": "Summer",
-                    "cultures": [
-                    {
-                    "id": "1",
-                    "culture": "Corn",
-                    "area": "10 acres"
-                    },
-                    {
-                    "id": "2",
-                    "culture": "Soybeans",
-                    "area": "20 acres"
                     }
-                    ]
+                ],
+                "2": [
+                    {
+                        "id": 1,
+                        "season": "Summer",
+                        "cultures": [
+                            {
+                                "id": "1",
+                                "culture": "Corn",
+                                "area": "10 acres"
+                            },
+                            {
+                                "id": "2",
+                                "culture": "Soybeans",
+                                "area": "20 acres"
+                            }
+                        ]
                     }
-              
-          
-        ]
-
+                ]
             },
-            "getContract":{
+            "getContract": {
                 "1": [
                     {
                         "id": "c1a3b8c7-7f90-4b3c-bc34-f08b999748f1",
