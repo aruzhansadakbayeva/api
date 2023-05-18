@@ -115,7 +115,8 @@ module.exports = (req, res) => {
     } else {
       requestBodyparser(req)
         .then((body) => {
-          const { type, action, visitId, userId, clientId} = body;
+          const { type, action, visitId, userId, clientId, email, password} = body;
+
           if (type === "plannedMeetingMob" && action === "getMeetings" && userId) {
             const message = data.data[type][action][userId];
 
@@ -226,6 +227,7 @@ module.exports = (req, res) => {
             res.writeHead(200, { "Content-Type": "application/json" });
             res.end(JSON.stringify(message));
           } 
+          
           else {
             res.writeHead(400, { "Content-Type": "application/json" });
             res.end(
@@ -234,7 +236,8 @@ module.exports = (req, res) => {
                 message: "Request body is not valid",
             })
           );
-        }
+        } 
+        
       })
       .catch((err) => {
         console.log(err);
@@ -246,9 +249,56 @@ module.exports = (req, res) => {
           })
         );
       });
-  }} else {
+  }
+  if (req.url === "/api/auth/login" && req.method === "POST") {
+    requestBodyparser(req)
+    .then((body) => {
+      const { email, password } = body;
+
+      if (email === 'a_sadakbayeva@alemagro.com' && password === 'password') {
+        const user = {
+          id: 1174,
+          email: 'a_sadakbayeva@alemagro.com',
+          name: 'Aruzhan Sadakbayeva',
+          access_availability: [1, 2, 3],
+          version: 1.0,
+          telegramId: '123456',
+          workPosition: 'iOS developer',
+          active: 1,
+          unFollowClients: [4, 5, 6],
+          favoriteClients: [7, 8, 9],
+          subscribesRegion: [10, 11, 12]
+        };
+
+        const token = 'your_auth_token';
+
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(
+          JSON.stringify({
+            user,
+            status: true,
+            token,
+            token_type: 'Bearer',
+            token_validity: 3600
+          })
+        );
+      } else {
+        res.writeHead(401, { 'Content-Type': 'application/json' });
+        res.end(
+          JSON.stringify({
+            error: 'Unauthorized',
+            message: 'Invalid email or password'
+          })
+        );
+      }
+    });
+  }
+  
+
+} else {
     res.writeHead(404, { "Content-Type": "application/json" });
     res.end(JSON.stringify({ title: "Not Found", message: "Route not found" }));
   }
 };
+
 
