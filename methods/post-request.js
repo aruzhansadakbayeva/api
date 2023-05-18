@@ -13,8 +13,54 @@ module.exports = (req, res) => {
     console.error("Invalid response object provided");
     return;
   }
+  if (req.url === "/api/auth/login" && req.method === "POST") {
+    requestBodyparser(req)
+    .then((body) => {
+      const { email, password } = body;
 
-  if (req.url === "/api/meetings" && req.method === "POST") {
+      if (email === 'a_sadakbayeva@alemagro.com' && password === 'password') {
+        const user = {
+          id: 1174,
+          email: 'a_sadakbayeva@alemagro.com',
+          name: 'Aruzhan Sadakbayeva',
+          access_availability: [1, 2, 3],
+          version: 1.0,
+          telegramId: '123456',
+          workPosition: 'iOS developer',
+          active: 1,
+          unFollowClients: [4, 5, 6],
+          favoriteClients: [7, 8, 9],
+          subscribesRegion: [10, 11, 12]
+        };
+
+        const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c';
+
+        res.writeHead(200, { 'Content-Type': 'application/json' });
+        res.end(
+          JSON.stringify({
+            user,
+            status: true,
+            token,
+            token_type: 'Bearer',
+            token_validity: 3600
+          })
+        );
+      } else {
+        res.writeHead(401, { 'Content-Type': 'application/json' });
+        res.end(
+          JSON.stringify({
+            error: 'Unauthorized',
+            message: 'Invalid email or password'
+          })
+        );
+      }
+    });
+  }
+  
+
+
+
+  else if (req.url === "/api/meetings" && req.method === "POST") {
     if (req.headers["content-type"].startsWith("multipart/form-data")) {
       upload.single("file")(req, res, (err) => {
         if (err) {
@@ -250,51 +296,7 @@ module.exports = (req, res) => {
         );
       });
   }
-  if (req.url === "/api/auth/login" && req.method === "POST") {
-    requestBodyparser(req)
-    .then((body) => {
-      const { email, password } = body;
-
-      if (email === 'a_sadakbayeva@alemagro.com' && password === 'password') {
-        const user = {
-          id: 1174,
-          email: 'a_sadakbayeva@alemagro.com',
-          name: 'Aruzhan Sadakbayeva',
-          access_availability: [1, 2, 3],
-          version: 1.0,
-          telegramId: '123456',
-          workPosition: 'iOS developer',
-          active: 1,
-          unFollowClients: [4, 5, 6],
-          favoriteClients: [7, 8, 9],
-          subscribesRegion: [10, 11, 12]
-        };
-
-        const token = 'your_auth_token';
-
-        res.writeHead(200, { 'Content-Type': 'application/json' });
-        res.end(
-          JSON.stringify({
-            user,
-            status: true,
-            token,
-            token_type: 'Bearer',
-            token_validity: 3600
-          })
-        );
-      } else {
-        res.writeHead(401, { 'Content-Type': 'application/json' });
-        res.end(
-          JSON.stringify({
-            error: 'Unauthorized',
-            message: 'Invalid email or password'
-          })
-        );
-      }
-    });
-  }
   
-
 } else {
     res.writeHead(404, { "Content-Type": "application/json" });
     res.end(JSON.stringify({ title: "Not Found", message: "Route not found" }));
