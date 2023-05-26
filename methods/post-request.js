@@ -15,48 +15,48 @@ module.exports = (req, res) => {
   }
   if (req.url === "/api/auth/login" && req.method === "POST") {
     requestBodyparser(req)
-    .then((body) => {
-      const { email, password } = body;
+      .then((body) => {
+        const { email, password } = body;
 
-      if (email === 'a_sadakbayeva@alemagro.com' && password === 'password') {
-        const user = {
-          id: 1174,
-          email: 'a_sadakbayeva@alemagro.com',
-          name: 'Aruzhan Sadakbayeva',
-          access_availability: [1, 2, 3],
-          version: 1.0,
-          telegramId: '123456',
-          workPosition: 'iOS developer',
-          active: 1,
-          unFollowClients: [4, 5, 6],
-          favoriteClients: [7, 8, 9],
-          subscribesRegion: [10, 11, 12]
-        };
+        if (email === 'a_sadakbayeva@alemagro.com' && password === 'password') {
+          const user = {
+            id: 1174,
+            email: 'a_sadakbayeva@alemagro.com',
+            name: 'Aruzhan Sadakbayeva',
+            access_availability: [1, 2, 3],
+            version: 1.0,
+            telegramId: '123456',
+            workPosition: 'iOS developer',
+            active: 1,
+            unFollowClients: [4, 5, 6],
+            favoriteClients: [7, 8, 9],
+            subscribesRegion: [10, 11, 12]
+          };
 
-        const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c';
+          const token = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIiwiaWF0IjoxNTE2MjM5MDIyfQ.SflKxwRJSMeKKF2QT4fwpMeJf36POk6yJV_adQssw5c';
 
-        res.writeHead(200, { 'Content-Type': 'application/json' });
-        res.end(
-          JSON.stringify({
-            user,
-            status: true,
-            token,
-            token_type: 'Bearer',
-            token_validity: 3600
-          })
-        );
-      } else {
-        res.writeHead(401, { 'Content-Type': 'application/json' });
-        res.end(
-          JSON.stringify({
-            error: 'Unauthorized',
-            message: 'Invalid email or password'
-          })
-        );
-      }
-    });
+          res.writeHead(200, { 'Content-Type': 'application/json' });
+          res.end(
+            JSON.stringify({
+              user,
+              status: true,
+              token,
+              token_type: 'Bearer',
+              token_validity: 3600
+            })
+          );
+        } else {
+          res.writeHead(401, { 'Content-Type': 'application/json' });
+          res.end(
+            JSON.stringify({
+              error: 'Unauthorized',
+              message: 'Invalid email or password'
+            })
+          );
+        }
+      });
   }
-  
+
 
 
 
@@ -72,7 +72,8 @@ module.exports = (req, res) => {
 
         const { type, key, src, value } = req.body;
 
-        if ([key === "file" && src && type === "file"], [key === "type" && value ==="uploadFile" && type === "text"], [key === "action" && value ==="visitProfile" && type === "text"], [key === "visitId" && value  && type === "text"]) {
+        if ([key === "file" && src && type === "file"], [key === "type" && value === "uploadFile" && type === "text"],
+         [key === "action" && value === "visitProfile" && type === "text"], [key === "visitId" && value && type === "text"]) {
           const filePath = req.file.path;
           const { visitId } = req.body;
 
@@ -110,7 +111,8 @@ module.exports = (req, res) => {
               res.end(JSON.stringify({ success: true }));
             });
           });
-        } else if ([key === "file" && type === "file"], [key === "type" && value ==="uploadFile" && type === "text"], [key === "action" && value ==="recommendations" && type === "text"], [key === "visitId" && value  && type === "text"]) {
+        } else if ([key === "file" && type === "file"], [key === "type" && value === "uploadFile" && type === "text"],
+         [key === "action" && value === "recommendations" && type === "text"], [key === "visitId" && value && type === "text"]) {
           const filePath = req.file.path;
           const { visitId } = req.body;
 
@@ -161,7 +163,7 @@ module.exports = (req, res) => {
     } else {
       requestBodyparser(req)
         .then((body) => {
-          const { type, action, visitId, userId, clientId, email, password} = body;
+          const { type, action, visitId, userId, clientId, workDone, fieldInspection, contractComplication, recomendation } = body;
 
           if (type === "plannedMeetingMob" && action === "getMeetings" && userId) {
             const message = data.data[type][action][userId];
@@ -171,31 +173,31 @@ module.exports = (req, res) => {
           }
           else if (type === "plannedMeetingMob" && action === "getDetailMeeting" && visitId) {
             const message = data.data[type][action][visitId];
-  
+
             res.writeHead(200, { "Content-Type": "application/json" });
             res.end(JSON.stringify(message));
-          } 
+          }
           else if (type === "meetingSurvey" && action === "getHandBookWorkDone") {
             const message = data.data[type][action];
-  
+
             res.writeHead(200, { "Content-Type": "application/json" });
             res.end(JSON.stringify(message));
           }
           else if (type === "meetingSurvey" && action === "getHandBookFieldInsp") {
             const message = data.data[type][action];
-  
+
             res.writeHead(200, { "Content-Type": "application/json" });
             res.end(JSON.stringify(message));
           }
           else if (type === "meetingSurvey" && action === "getHandBookContractComplications") {
             const message = data.data[type][action];
-  
+
             res.writeHead(200, { "Content-Type": "application/json" });
             res.end(JSON.stringify(message));
           }
           else if (type === "meetingSurvey" && action === "getHandBookMeetingRecommendations") {
             const message = data.data[type][action];
-  
+
             res.writeHead(200, { "Content-Type": "application/json" });
             res.end(JSON.stringify(message));
           }
@@ -251,53 +253,96 @@ module.exports = (req, res) => {
           }
           else if (type === "client" && action === "getContractAnalysis" && clientId) {
             const message = data.data[type][action][clientId];
-  
+
             res.writeHead(200, { "Content-Type": "application/json" });
             res.end(JSON.stringify(message));
-          } 
+          }
           else if (type === "client" && action === "getSubscidesList" && clientId) {
             const message = data.data[type][action][clientId];
-  
+
             res.writeHead(200, { "Content-Type": "application/json" });
             res.end(JSON.stringify(message));
-          } 
+          }
           else if (type === "client" && action === "getCropRotation" && clientId) {
             const message = data.data[type][action][clientId];
-  
+
             res.writeHead(200, { "Content-Type": "application/json" });
             res.end(JSON.stringify(message));
-          } 
+          }
           else if (type === "client" && action === "getContract" && clientId) {
             const message = data.data[type][action][clientId];
-  
+
             res.writeHead(200, { "Content-Type": "application/json" });
             res.end(JSON.stringify(message));
+          }
+          else if (type === "meetingSurvey" && action === "fixedSurvey" && visitId && workDone && fieldInspection && contractComplication && recomendation)  {
+           
+           
+  
+            // Read the existing meetings data from the JSON file
+            fs.readFile("./data/meetings.json", (err, data) => {
+              if (err) {
+                console.error(err);
+                res.writeHead(500, { "Content-Type": "application/json" });
+                res.end(JSON.stringify({ error: "Failed to read meetings data" }));
+                return;
+              }
+  
+              // Parse the JSON data into a JavaScript object
+              const meetingsObj = JSON.parse(data);
+  
+              // Push the uploaded file to the appropriate array
+              meetingsObj.data.meetingSurvey.fixedSurvey.push({
+               
+                date: new Date().toISOString(),
+                visitId: visitId,
+                workDone: workDone,
+                fieldInspection: fieldInspection,
+                contractComplication: contractComplication,
+                recomendation: recomendation
+
+              });
+  
+              // Convert the updated object back to a JSON string and write it to the file
+              fs.writeFile("./data/meetings.json", JSON.stringify(meetingsObj), (err) => {
+                if (err) {
+                  console.error(err);
+                  res.writeHead(500, { "Content-Type": "application/json" });
+                  res.end(JSON.stringify({ error: "Failed to write meetings data" }));
+                  return;
+                }
+  
+                // Send the response
+                res.writeHead(200, { "Content-Type": "application/json" });
+                res.end(JSON.stringify({ success: true }));
+              });
+            });
           } 
-          
+
           else {
             res.writeHead(400, { "Content-Type": "application/json" });
             res.end(
               JSON.stringify({
                 title: "Validation Failed",
                 message: "Request body is not valid",
+              })
+            );
+          }
+
+        })
+        .catch((err) => {
+          console.log(err);
+          res.writeHead(400, { "Content-Type": "application/json" });
+          res.end(
+            JSON.stringify({
+              title: "Validation Failed",
+              message: "Request body is not valid",
             })
           );
-        } 
-        
-      })
-      .catch((err) => {
-        console.log(err);
-        res.writeHead(400, { "Content-Type": "application/json" });
-        res.end(
-          JSON.stringify({
-            title: "Validation Failed",
-            message: "Request body is not valid",
-          })
-        );
-      });
-  }
-  
-} else {
+        });
+    }
+
+  } else {
     res.writeHead(404, { "Content-Type": "application/json" });
     res.end(JSON.stringify({ title: "Not Found", message: "Route not found" }));
   }

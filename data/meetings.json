@@ -13,7 +13,7 @@
                                 "statusVisit": true,
                                 "clientId": 1,
                                 "clientName": "ТОО \"АгроЭко\"",
-                                "dateVisit": "2023-05-01",
+                                "dateVisit": "2023-05-04",
                                 "visitTypeName": "Заключение договора"
                             },
                             {
@@ -21,14 +21,14 @@
                                 "statusVisit": true,
                                 "clientId": 2,
                                 "clientName": "Айгуль Касымова",
-                                "dateVisit": "2023-05-02",
+                                "dateVisit": "2023-05-04",
                                 "visitTypeName": "Заключение договора"
                             }
                         ]
                     },
                     {
                         "id": 2,
-                        "dateToVisit": "2023-04-26",
+                        "dateToVisit": "2023-05-03",
                         "statusVisit": "Не согласован",
                         "clients": [
                             {
@@ -36,7 +36,7 @@
                                 "statusVisit": true,
                                 "clientId": 3,
                                 "clientName": "ТОО \"Лаита\" ",
-                                "dateVisit": "2023-05-01",
+                                "dateVisit": "2023-05-03",
                                 "visitTypeName": "Заключение договора"
                             },
                             {
@@ -44,7 +44,53 @@
                                 "statusVisit": true,
                                 "clientId": 4,
                                 "clientName": "ИП \"Ернур\"",
+                                "dateVisit": "2023-05-03",
+                                "visitTypeName": "Заключение договора"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3,
+                        "dateToVisit": "2023-05-02",
+                        "statusVisit": "Не согласован",
+                        "clients": [
+                            {
+                                "visitId": 1030,
+                                "statusVisit": true,
+                                "clientId": 3,
+                                "clientName": "ТОО \"ГруппАгро\" ",
                                 "dateVisit": "2023-05-02",
+                                "visitTypeName": "Заключение договора"
+                            },
+                            {
+                                "visitId": 1040,
+                                "statusVisit": true,
+                                "clientId": 4,
+                                "clientName": "Таир Бектенов",
+                                "dateVisit": "2023-05-02",
+                                "visitTypeName": "Заключение договора"
+                            }
+                        ]
+                    },
+                    {
+                        "id": 4,
+                        "dateToVisit": "2023-05-01",
+                        "statusVisit": "Не согласован",
+                        "clients": [
+                            {
+                                "visitId": 1030,
+                                "statusVisit": true,
+                                "clientId": 3,
+                                "clientName": "ИП \"Зият\"",
+                                "dateVisit": "2023-05-01",
+                                "visitTypeName": "Заключение договора"
+                            },
+                            {
+                                "visitId": 1040,
+                                "statusVisit": true,
+                                "clientId": 4,
+                                "clientName": "Темирхан Бердигалиев",
+                                "dateVisit": "2023-05-01",
                                 "visitTypeName": "Заключение договора"
                             }
                         ]
@@ -69,8 +115,8 @@
                     "clientIin": 123456789,
                     "managerId": 456,
                     "managerName": "Кайсар А.Ж.",
-                    "startVisit": "2023-05-17T16:31:31.049Z",
-                    "finishVisit": "2023-05-17T16:31:31.851Z",
+                    "startVisit": "2023-05-26T08:37:26.860Z",
+                    "finishVisit": "2023-05-26T08:37:27.084Z",
                     "statusVisit": false,
                     "visitTypeId": 1,
                     "visitTypeName": "Заключение договора",
@@ -101,6 +147,54 @@
                     "path": "uploads/4cf9477877b83e8aef2c699bbbda91e8",
                     "date": "2023-05-15T10:56:13.374Z",
                     "visitId": "1"
+                },
+                {
+                    "name": "qr-QR2839542111.pdf.pdf",
+                    "path": "uploads/41be8e6caabe12d0178b205888631f0c",
+                    "date": "2023-05-18T17:48:28.397Z",
+                    "visitId": "1010"
+                },
+                {
+                    "name": "13EE147B-EF26-4E57-B49B-A18F24743697.jpeg",
+                    "path": "uploads/9ead86c26951937ea29f73075d1ee8d8",
+                    "date": "2023-05-18T17:48:47.523Z",
+                    "visitId": "1010"
+                },
+                {
+                    "name": "_var_www_custom.emex-global.kz_public_orders_3230970_3230970-obligation.pdf.pdf",
+                    "path": "uploads/21011d02247cac8b83f138f9becfc3b7",
+                    "date": "2023-05-18T17:48:55.443Z",
+                    "visitId": "1010"
+                },
+                {
+                    "name": "Ð§ÐµÐº #3467635335.pdf.pdf.pdf",
+                    "path": "uploads/e3d04b2ed329120a7bca88dfa8d44432",
+                    "date": "2023-05-18T17:49:12.877Z",
+                    "visitId": "1010"
+                },
+                {
+                    "name": "qr-QR2839542111.pdf.pdf",
+                    "path": "uploads/035e710d7c6baae53624e084ddebf5d4",
+                    "date": "2023-05-18T17:49:19.164Z",
+                    "visitId": "1010"
+                },
+                {
+                    "name": "710FA613-1C63-48C8-91D7-406538FDCEC3.jpeg",
+                    "path": "uploads/28a46777f9d81892cc49aa58d7e7017d",
+                    "date": "2023-05-18T17:49:21.339Z",
+                    "visitId": "1010"
+                },
+                {
+                    "name": "recording.m4a",
+                    "path": "uploads/40b3fe33f293fbb4fb3c6e4d30ce6320",
+                    "date": "2023-05-18T19:06:48.483Z",
+                    "visitId": "1010"
+                },
+                {
+                    "name": "recording.m4a",
+                    "path": "uploads/67101c79c008d8fb018a666632107c21",
+                    "date": "2023-05-20T09:49:49.964Z",
+                    "visitId": "1010"
                 }
             ]
         },
@@ -216,26 +310,22 @@
                 },
                 {
                     "id": 3,
-                    "name": "Предложение КП"
-                },
-                {
-                    "id": 4,
                     "name": "Лоялен к конкурентам"
                 },
                 {
-                    "id": 5,
+                    "id": 4,
                     "name": "Нет денег (у клиента)"
                 },
                 {
-                    "id": 6,
+                    "id": 5,
                     "name": "Не устраивают условия поставки"
                 },
                 {
-                    "id": 7,
+                    "id": 6,
                     "name": "Нет готовности к переговорам"
                 },
                 {
-                    "id": 8,
+                    "id": 7,
                     "name": "Другое"
                 }
             ],
@@ -255,6 +345,119 @@
                 {
                     "id": 4,
                     "name": "Нужно ли создать себе задачу?"
+                }
+            ],
+            "fixedSurvey": [
+                {
+                    "date": "2023-05-26T08:35:55.404Z",
+                    "visitId": 1010,
+                    "workDone": [
+                        1
+                    ],
+                    "fieldInspection": [],
+                    "contractComplication": [],
+                    "recomendation": [
+                        {
+                            "typeId": 1,
+                            "description": "Да"
+                        },
+                        {
+                            "description": "Да",
+                            "typeId": 3
+                        },
+                        {
+                            "description": "Да",
+                            "typeId": 2
+                        }
+                    ]
+                },
+                {
+                    "date": "2023-05-26T08:38:04.229Z",
+                    "visitId": 1010,
+                    "workDone": [
+                        3,
+                        4,
+                        5,
+                        1,
+                        2
+                    ],
+                    "fieldInspection": [
+                        {
+                            "culture": "Культура 1",
+                            "categories": [
+                                {
+                                    "category": "Выбор культуры",
+                                    "items": [
+                                        "- Масличные"
+                                    ]
+                                },
+                                {
+                                    "items": [
+                                        "- Вредители",
+                                        "- Болезни"
+                                    ],
+                                    "category": "Обнаружение проблемы"
+                                },
+                                {
+                                    "category": "Этапы осмотра полей по культуре",
+                                    "items": [
+                                        "- Подготовка посева"
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "categories": [
+                                {
+                                    "category": "Выбор культуры",
+                                    "items": [
+                                        "- Кукуруза"
+                                    ]
+                                },
+                                {
+                                    "items": [
+                                        "- Качество всходов"
+                                    ],
+                                    "category": "Обнаружение проблемы"
+                                },
+                                {
+                                    "category": "Этапы осмотра полей по культуре",
+                                    "items": [
+                                        "- Всходы"
+                                    ]
+                                }
+                            ],
+                            "culture": "Культура 2"
+                        }
+                    ],
+                    "contractComplication": [
+                        {
+                            "description": "Не устраивают цены",
+                            "typeId": 1
+                        },
+                        {
+                            "description": "Не устраивают условия оплаты",
+                            "typeId": 2
+                        }
+                    ],
+                    "recomendation": [
+                        {
+                            "typeId": 3,
+                            "description": "Да"
+                        },
+                        {
+                            "typeId": 1,
+                            "description": "Да"
+                        },
+                        {
+                            "description": "Продажи не было",
+                            "typeId": 2
+                        },
+                        {
+                            "description": "Lll",
+                            "typeId": 4
+                        }
+                    ]
                 }
             ]
         },
