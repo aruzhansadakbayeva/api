@@ -143,7 +143,7 @@
                         {
                             "id": "1",
                             "position": "CEO",
-                            "name": "Айгуль Касымова",
+                            "name": "Айгуль Касымова Аскаровна",
                             "phNumber": "+7 707-123-4567",
                             "email": "kasymova_a@gmail.com"
                         }
@@ -745,55 +745,64 @@
                 "1": [
                     {
                         "id": 1,
-                        "season": "Summer",
+                        "season": "2022",
                         "cultures": [
                             {
                                 "id": "1",
-                                "culture": "Corn",
-                                "area": "10 acres"
+                                "culture": "Горох",
+                                "area": "107.5 Га"
                             },
                             {
                                 "id": "2",
-                                "culture": "Soybeans",
-                                "area": "20 acres"
+                                "culture": "Лен",
+                                "area": "22.4 Га"
+                            },
+                            {
+                                "id": "3",
+                                "culture": "Пшеница мягкая яровая",
+                                "area": "1070 Га"
+                            },
+                            {
+                                "id": "4",
+                                "culture": "Ячмень яровой",
+                                "area": "22.96 Га"
                             }
                         ]
                     },
                     {
                         "id": 2,
-                        "season": "Summer",
+                        "season": "2021",
                         "cultures": [
                             {
-                                "id": "1",
-                                "culture": "Corn",
-                                "area": "10 acres"
+                                "id": "3",
+                                "culture": "Солод ржаной",
+                                "area": "1070 Га"
                             },
                             {
-                                "id": "2",
-                                "culture": "Soybeans",
-                                "area": "20 acres"
+                                "id": "4",
+                                "culture": "Ячмень яровой",
+                                "area": "22.96 Га"
                             }
                         ]
-                    }
-                ],
-                "2": [
+                    },
                     {
-                        "id": 1,
-                        "season": "Summer",
+                        "id": 3,
+                        "season": "2020",
                         "cultures": [
                             {
-                                "id": "1",
-                                "culture": "Corn",
-                                "area": "10 acres"
+                                "id": "3",
+                                "culture": "Пшеница мягкая яровая",
+                                "area": "1070 Га"
                             },
                             {
-                                "id": "2",
-                                "culture": "Soybeans",
-                                "area": "20 acres"
+                                "id": "4",
+                                "culture": "Ячмень яровой",
+                                "area": "22.96 Га"
                             }
                         ]
                     }
                 ]
+               
             },
             "getContract": {
                 "1": [
@@ -847,41 +856,12 @@
                                 "id": "9a3a5247-8f5f-6b0b-5d7f-7149c24f7f7f",
                                 "category": "Удобрения",
                                 "contracts": [
-                                    {
-                                        "id": "5c10fbb7-4d04-4813-af19-ae21c4f1db9e",
-                                        "productName": "Ластик Эстра 4*5",
-                                        "avgPrice": "6500 тг",
-                                        "count": "180"
-                                    },
+                                 
                                     {
                                         "id": "dc10fbb7-4d04-4813-af19-ae21c4f1db9e",
                                         "productName": "Имидашанс-С 4*5л",
                                         "avgPrice": "19850 тг",
                                         "count": "255"
-                                    },
-                                    {
-                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1dbe",
-                                        "productName": "Парадокс ВРК 4*5л",
-                                        "avgPrice": "32500 тг",
-                                        "count": "200"
-                                    },
-                                    {
-                                        "id": "5c10fbb7-404-4813-af9-ae21c4f1db9e",
-                                        "productName": "Ластик Эстра 4*5",
-                                        "avgPrice": "6500 тг",
-                                        "count": "180"
-                                    },
-                                    {
-                                        "id": "dc10fbb7-4d04-483-af19-ae21c4f1db9e",
-                                        "productName": "Имидашанс-С 4*5л",
-                                        "avgPrice": "19850 тг",
-                                        "count": "255"
-                                    },
-                                    {
-                                        "id": "dc10fbb7-4d04-4813-ae21c4f1dbe",
-                                        "productName": "Парадокс ВРК 4*5л",
-                                        "avgPrice": "32500 тг",
-                                        "count": "200"
                                     }
                                 ]
                             }
