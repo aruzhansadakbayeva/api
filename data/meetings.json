@@ -549,7 +549,7 @@
                         "season": "2023",
                         "categories": [
                             {
-                                "category": "Category A",
+                                "category": "Категория A",
                                 "contracts": [
                                     {
                                         "clientName": "Client A",
@@ -576,7 +576,7 @@
                                 ]
                             },
                             {
-                                "category": "Category B",
+                                "category": "Категория B",
                                 "contracts": [
                                     {
                                         "clientName": "Client C",
@@ -597,7 +597,7 @@
                         "season": "2022",
                         "categories": [
                             {
-                                "category": "Category A",
+                                "category": "Категория A",
                                 "contracts": [
                                     {
                                         "clientName": "Client A",
@@ -624,105 +624,7 @@
                                 ]
                             },
                             {
-                                "category": "Category B",
-                                "contracts": [
-                                    {
-                                        "clientName": "Client C",
-                                        "region": "Region C",
-                                        "usageArea": "Area C",
-                                        "providerName": "Provider C",
-                                        "productName": "Product C",
-                                        "productPrice": "12.99",
-                                        "sum": "64.95",
-                                        "count": "5",
-                                        "unit": "Unit C"
-                                    }
-                                ]
-                            }
-                        ]
-                    }
-                ],
-                "2": [
-                    {
-                        "season": "2023",
-                        "categories": [
-                            {
-                                "category": "Category A",
-                                "contracts": [
-                                    {
-                                        "clientName": "Client A",
-                                        "region": "Region A",
-                                        "usageArea": "Area A",
-                                        "providerName": "Provider A",
-                                        "productName": "Product A",
-                                        "productPrice": "10.99",
-                                        "sum": "54.95",
-                                        "count": "5",
-                                        "unit": "Unit A"
-                                    },
-                                    {
-                                        "clientName": "Client B",
-                                        "region": "Region B",
-                                        "usageArea": "Area B",
-                                        "providerName": "Provider B",
-                                        "productName": "Product B",
-                                        "productPrice": "7.99",
-                                        "sum": "39.95",
-                                        "count": "5",
-                                        "unit": "Unit B"
-                                    }
-                                ]
-                            },
-                            {
-                                "category": "Category B",
-                                "contracts": [
-                                    {
-                                        "clientName": "Client C",
-                                        "region": "Region C",
-                                        "usageArea": "Area C",
-                                        "providerName": "Provider C",
-                                        "productName": "Product C",
-                                        "productPrice": "12.99",
-                                        "sum": "64.95",
-                                        "count": "5",
-                                        "unit": "Unit C"
-                                    }
-                                ]
-                            }
-                        ]
-                    },
-                    {
-                        "season": "2022",
-                        "categories": [
-                            {
-                                "category": "Category A",
-                                "contracts": [
-                                    {
-                                        "clientName": "Client A",
-                                        "region": "Region A",
-                                        "usageArea": "Area A",
-                                        "providerName": "Provider A",
-                                        "productName": "Product A",
-                                        "productPrice": "10.99",
-                                        "sum": "54.95",
-                                        "count": "5",
-                                        "unit": "Unit A"
-                                    },
-                                    {
-                                        "clientName": "Client B",
-                                        "region": "Region B",
-                                        "usageArea": "Area B",
-                                        "providerName": "Provider B",
-                                        "productName": "Product B",
-                                        "productPrice": "7.99",
-                                        "sum": "39.95",
-                                        "count": "5",
-                                        "unit": "Unit B"
-                                    }
-                                ]
-                            },
-                            {
-                                "category": "Category B",
+                                "category": "Категория B",
                                 "contracts": [
                                     {
                                         "clientName": "Client C",
