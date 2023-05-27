@@ -22,7 +22,7 @@
                                 "clientId": 2,
                                 "clientName": "Айгуль Касымова",
                                 "dateVisit": "2023-05-04",
-                                "visitTypeName": "Заключение договора"
+                                "visitTypeName": "Отбор почвенных образцов"
                             }
                         ]
                     },
@@ -115,11 +115,47 @@
                     "clientIin": 123456789,
                     "managerId": 456,
                     "managerName": "Кайсар А.Ж.",
-                    "startVisit": "2023-05-26T08:37:26.860Z",
-                    "finishVisit": "2023-05-26T08:37:27.084Z",
+                    "startVisit": "2023-05-27T04:44:29.373Z",
+                    "finishVisit": "2023-05-27T04:44:29.841Z",
                     "statusVisit": false,
                     "visitTypeId": 1,
                     "visitTypeName": "Заключение договора",
+                    "meetingTypeId": 2,
+                    "meetingTypeName": "По юридическому адресу",
+                    "meetingCoordinate": "37.7749° N, 122.4194° W",
+                    "plotId": 789,
+                    "plotName": "ACME Headquarters",
+                    "summContract": "$1,000,000",
+                    "summCurrentContractSeason": "$250,000",
+                    "checkContracts": true,
+                    "potentialClientPercent": "75%",
+                    "subscidesSum": "$50,000",
+                    "checkSubscides": true,
+                    "duration": "2 hours",
+                    "distance": "5 miles"
+                },
+                "1020": {
+                    "clientId": 2,
+                    "clientName": "Айгуль Касымова",
+                    "clientCategory": "Агропромышленность",
+                    "address": "ул. Жамбыла 1",
+                    "contactInf": [
+                        {
+                            "id": "1",
+                            "position": "CEO",
+                            "name": "Айгуль Касымова",
+                            "phNumber": "+7 707-123-4567",
+                            "email": "kasymova_a@gmail.com"
+                        }
+                    ],
+                    "clientIin": 123456789,
+                    "managerId": 456,
+                    "managerName": "Кайсар А.Ж.",
+                    "startVisit": "2023-05-27T04:44:13.155Z",
+                    "finishVisit": "2023-05-27T04:44:13.652Z",
+                    "statusVisit": false,
+                    "visitTypeId": 1,
+                    "visitTypeName": "Отбор почвенных образцов",
                     "meetingTypeId": 2,
                     "meetingTypeName": "По юридическому адресу",
                     "meetingCoordinate": "37.7749° N, 122.4194° W",
@@ -143,57 +179,9 @@
                     "visitId": "1"
                 },
                 {
-                    "name": "recording.m4a",
-                    "path": "uploads/4cf9477877b83e8aef2c699bbbda91e8",
-                    "date": "2023-05-15T10:56:13.374Z",
-                    "visitId": "1"
-                },
-                {
-                    "name": "qr-QR2839542111.pdf.pdf",
-                    "path": "uploads/41be8e6caabe12d0178b205888631f0c",
-                    "date": "2023-05-18T17:48:28.397Z",
-                    "visitId": "1010"
-                },
-                {
-                    "name": "13EE147B-EF26-4E57-B49B-A18F24743697.jpeg",
-                    "path": "uploads/9ead86c26951937ea29f73075d1ee8d8",
-                    "date": "2023-05-18T17:48:47.523Z",
-                    "visitId": "1010"
-                },
-                {
-                    "name": "_var_www_custom.emex-global.kz_public_orders_3230970_3230970-obligation.pdf.pdf",
-                    "path": "uploads/21011d02247cac8b83f138f9becfc3b7",
-                    "date": "2023-05-18T17:48:55.443Z",
-                    "visitId": "1010"
-                },
-                {
-                    "name": "Ð§ÐµÐº #3467635335.pdf.pdf.pdf",
-                    "path": "uploads/e3d04b2ed329120a7bca88dfa8d44432",
-                    "date": "2023-05-18T17:49:12.877Z",
-                    "visitId": "1010"
-                },
-                {
-                    "name": "qr-QR2839542111.pdf.pdf",
-                    "path": "uploads/035e710d7c6baae53624e084ddebf5d4",
-                    "date": "2023-05-18T17:49:19.164Z",
-                    "visitId": "1010"
-                },
-                {
-                    "name": "710FA613-1C63-48C8-91D7-406538FDCEC3.jpeg",
-                    "path": "uploads/28a46777f9d81892cc49aa58d7e7017d",
-                    "date": "2023-05-18T17:49:21.339Z",
-                    "visitId": "1010"
-                },
-                {
-                    "name": "recording.m4a",
-                    "path": "uploads/40b3fe33f293fbb4fb3c6e4d30ce6320",
-                    "date": "2023-05-18T19:06:48.483Z",
-                    "visitId": "1010"
-                },
-                {
-                    "name": "recording.m4a",
-                    "path": "uploads/67101c79c008d8fb018a666632107c21",
-                    "date": "2023-05-20T09:49:49.964Z",
+                    "name": "F92A70E7-FE61-4355-B73D-0EADA00F5E3E.jpeg",
+                    "path": "uploads/2014d5f8c3f74317206ebc130025a070",
+                    "date": "2023-05-27T04:31:41.983Z",
                     "visitId": "1010"
                 }
             ]
@@ -349,54 +337,27 @@
             ],
             "fixedSurvey": [
                 {
-                    "date": "2023-05-26T08:35:55.404Z",
-                    "visitId": 1010,
-                    "workDone": [
-                        1
-                    ],
-                    "fieldInspection": [],
-                    "contractComplication": [],
-                    "recomendation": [
-                        {
-                            "typeId": 1,
-                            "description": "Да"
-                        },
-                        {
-                            "description": "Да",
-                            "typeId": 3
-                        },
-                        {
-                            "description": "Да",
-                            "typeId": 2
-                        }
-                    ]
-                },
-                {
-                    "date": "2023-05-26T08:38:04.229Z",
-                    "visitId": 1010,
+                    "date": "2023-05-27T04:29:52.006Z",
+                    "visitId": 1030,
                     "workDone": [
                         3,
-                        4,
-                        5,
                         1,
-                        2
+                        5
                     ],
                     "fieldInspection": [
                         {
-                            "culture": "Культура 1",
                             "categories": [
                                 {
-                                    "category": "Выбор культуры",
                                     "items": [
                                         "- Масличные"
-                                    ]
+                                    ],
+                                    "category": "Выбор культуры"
                                 },
                                 {
+                                    "category": "Обнаружение проблемы",
                                     "items": [
-                                        "- Вредители",
-                                        "- Болезни"
-                                    ],
-                                    "category": "Обнаружение проблемы"
+                                        "- Вредители"
+                                    ]
                                 },
                                 {
                                     "category": "Этапы осмотра полей по культуре",
@@ -404,30 +365,8 @@
                                         "- Подготовка посева"
                                     ]
                                 }
-                            ]
-                        },
-                        {
-                            "categories": [
-                                {
-                                    "category": "Выбор культуры",
-                                    "items": [
-                                        "- Кукуруза"
-                                    ]
-                                },
-                                {
-                                    "items": [
-                                        "- Качество всходов"
-                                    ],
-                                    "category": "Обнаружение проблемы"
-                                },
-                                {
-                                    "category": "Этапы осмотра полей по культуре",
-                                    "items": [
-                                        "- Всходы"
-                                    ]
-                                }
                             ],
-                            "culture": "Культура 2"
+                            "culture": "Культура 1"
                         }
                     ],
                     "contractComplication": [
@@ -436,26 +375,22 @@
                             "typeId": 1
                         },
                         {
-                            "description": "Не устраивают условия оплаты",
-                            "typeId": 2
+                            "typeId": 4,
+                            "description": "Нет денег (у клиента)"
                         }
                     ],
                     "recomendation": [
+                        {
+                            "typeId": 2,
+                            "description": "Да"
+                        },
                         {
                             "typeId": 3,
                             "description": "Да"
                         },
                         {
-                            "typeId": 1,
-                            "description": "Да"
-                        },
-                        {
-                            "description": "Продажи не было",
-                            "typeId": 2
-                        },
-                        {
-                            "description": "Lll",
-                            "typeId": 4
+                            "description": "Да",
+                            "typeId": 1
                         }
                     ]
                 }
