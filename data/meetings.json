@@ -751,41 +751,89 @@
                 "1": [
                     {
                         "id": "c1a3b8c7-7f90-4b3c-bc34-f08b999748f1",
-                        "season": "Summer",
+                        "season": "Сезон 2023",
                         "categories": [
                             {
                                 "id": "361c5247-6f5f-4b0b-9c7f-7149c24f7f7f",
-                                "category": "Fruits",
+                                "category": "СЗР",
                                 "contracts": [
                                     {
                                         "id": "5c10fbb7-4d04-4813-af19-ae21c4f1db9e",
-                                        "productName": "Strawberries",
-                                        "avgPrice": "2.50",
-                                        "count": "100"
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
                                     },
                                     {
                                         "id": "dc10fbb7-4d04-4813-af19-ae21c4f1db9e",
-                                        "productName": "Peaches",
-                                        "avgPrice": "1.75",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
+                                    },
+                                    {
+                                        "id": "5c10fbb7-404-4813-af9-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-483-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
                                         "count": "200"
                                     }
                                 ]
                             },
                             {
                                 "id": "9a3a5247-8f5f-6b0b-5d7f-7149c24f7f7f",
-                                "category": "Vegetables",
+                                "category": "Удобрения",
                                 "contracts": [
                                     {
-                                        "id": "2c10fbb7-4d04-4813-af19-ae21c4f1db9e",
-                                        "productName": "Cucumbers",
-                                        "avgPrice": "1.00",
-                                        "count": "150"
+                                        "id": "5c10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
                                     },
                                     {
-                                        "id": "ac10fbb7-4d04-4813-af19-ae21c4f1db9e",
-                                        "productName": "Tomatoes",
-                                        "avgPrice": "1.25",
-                                        "count": "300"
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
+                                    },
+                                    {
+                                        "id": "5c10fbb7-404-4813-af9-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-483-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
                                     }
                                 ]
                             }
@@ -793,41 +841,221 @@
                     },
                     {
                         "id": "c1a3b8c7-7f90-4b3c-bc34-f08b999748f1",
-                        "season": "Summer",
+                        "season": "Сезон 2022",
                         "categories": [
                             {
                                 "id": "361c5247-6f5f-4b0b-9c7f-7149c24f7f7f",
-                                "category": "Fruits",
+                                "category": "СЗР",
                                 "contracts": [
                                     {
                                         "id": "5c10fbb7-4d04-4813-af19-ae21c4f1db9e",
-                                        "productName": "Strawberries",
-                                        "avgPrice": "2.50",
-                                        "count": "100"
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
                                     },
                                     {
                                         "id": "dc10fbb7-4d04-4813-af19-ae21c4f1db9e",
-                                        "productName": "Peaches",
-                                        "avgPrice": "1.75",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
+                                    },
+                                    {
+                                        "id": "5c10fbb7-404-4813-af9-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-483-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
                                         "count": "200"
                                     }
                                 ]
                             },
                             {
                                 "id": "9a3a5247-8f5f-6b0b-5d7f-7149c24f7f7f",
-                                "category": "Vegetables",
+                                "category": "Удобрения",
                                 "contracts": [
                                     {
-                                        "id": "2c10fbb7-4d04-4813-af19-ae21c4f1db9e",
-                                        "productName": "Cucumbers",
-                                        "avgPrice": "1.00",
-                                        "count": "150"
+                                        "id": "5c10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
                                     },
                                     {
-                                        "id": "ac10fbb7-4d04-4813-af19-ae21c4f1db9e",
-                                        "productName": "Tomatoes",
-                                        "avgPrice": "1.25",
-                                        "count": "300"
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
+                                    },
+                                    {
+                                        "id": "5c10fbb7-404-4813-af9-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-483-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "9a3a5247-8f5f-6b0b-5d7f-7149c24f7f",
+                                "category": "Форсунки",
+                                "contracts": [
+                                    {
+                                        "id": "5c10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
+                                    },
+                                    {
+                                        "id": "5c10fbb7-404-4813-af9-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-483-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "c1a3b8c7-7f90-4b3c-bc34-f08b999748f1",
+                        "season": "Сезон 2021",
+                        "categories": [
+                            {
+                                "id": "361c5247-6f5f-4b0b-9c7f-7149c24f7f7f",
+                                "category": "СЗР",
+                                "contracts": [
+                                    {
+                                        "id": "5c10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
+                                    },
+                                    {
+                                        "id": "5c10fbb7-404-4813-af9-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-483-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "9a3a5247-8f5f-6b0b-5d7f-7149c24f7f7f",
+                                "category": "Удобрения",
+                                "contracts": [
+                                    {
+                                        "id": "5c10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
+                                    },
+                                    {
+                                        "id": "5c10fbb7-404-4813-af9-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-483-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
                                     }
                                 ]
                             }
@@ -837,41 +1065,89 @@
                 "2": [
                     {
                         "id": "c1a3b8c7-7f90-4b3c-bc34-f08b999748f1",
-                        "season": "Summer",
+                        "season": "Сезон 2023",
                         "categories": [
                             {
                                 "id": "361c5247-6f5f-4b0b-9c7f-7149c24f7f7f",
-                                "category": "Fruits",
+                                "category": "СЗР",
                                 "contracts": [
                                     {
                                         "id": "5c10fbb7-4d04-4813-af19-ae21c4f1db9e",
-                                        "productName": "Strawberries",
-                                        "avgPrice": "2.50",
-                                        "count": "100"
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
                                     },
                                     {
                                         "id": "dc10fbb7-4d04-4813-af19-ae21c4f1db9e",
-                                        "productName": "Peaches",
-                                        "avgPrice": "1.75",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
+                                    },
+                                    {
+                                        "id": "5c10fbb7-404-4813-af9-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-483-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
                                         "count": "200"
                                     }
                                 ]
                             },
                             {
                                 "id": "9a3a5247-8f5f-6b0b-5d7f-7149c24f7f7f",
-                                "category": "Vegetables",
+                                "category": "Удобрения",
                                 "contracts": [
                                     {
-                                        "id": "2c10fbb7-4d04-4813-af19-ae21c4f1db9e",
-                                        "productName": "Cucumbers",
-                                        "avgPrice": "1.00",
-                                        "count": "150"
+                                        "id": "5c10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
                                     },
                                     {
-                                        "id": "ac10fbb7-4d04-4813-af19-ae21c4f1db9e",
-                                        "productName": "Tomatoes",
-                                        "avgPrice": "1.25",
-                                        "count": "300"
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
+                                    },
+                                    {
+                                        "id": "5c10fbb7-404-4813-af9-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-483-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
                                     }
                                 ]
                             }
@@ -879,41 +1155,221 @@
                     },
                     {
                         "id": "c1a3b8c7-7f90-4b3c-bc34-f08b999748f1",
-                        "season": "Summer",
+                        "season": "Сезон 2022",
                         "categories": [
                             {
                                 "id": "361c5247-6f5f-4b0b-9c7f-7149c24f7f7f",
-                                "category": "Fruits",
+                                "category": "СЗР",
                                 "contracts": [
                                     {
                                         "id": "5c10fbb7-4d04-4813-af19-ae21c4f1db9e",
-                                        "productName": "Strawberries",
-                                        "avgPrice": "2.50",
-                                        "count": "100"
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
                                     },
                                     {
                                         "id": "dc10fbb7-4d04-4813-af19-ae21c4f1db9e",
-                                        "productName": "Peaches",
-                                        "avgPrice": "1.75",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
+                                    },
+                                    {
+                                        "id": "5c10fbb7-404-4813-af9-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-483-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
                                         "count": "200"
                                     }
                                 ]
                             },
                             {
                                 "id": "9a3a5247-8f5f-6b0b-5d7f-7149c24f7f7f",
-                                "category": "Vegetables",
+                                "category": "Удобрения",
                                 "contracts": [
                                     {
-                                        "id": "2c10fbb7-4d04-4813-af19-ae21c4f1db9e",
-                                        "productName": "Cucumbers",
-                                        "avgPrice": "1.00",
-                                        "count": "150"
+                                        "id": "5c10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
                                     },
                                     {
-                                        "id": "ac10fbb7-4d04-4813-af19-ae21c4f1db9e",
-                                        "productName": "Tomatoes",
-                                        "avgPrice": "1.25",
-                                        "count": "300"
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
+                                    },
+                                    {
+                                        "id": "5c10fbb7-404-4813-af9-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-483-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "9a3a5247-8f5f-6b0b-5d7f-7149c24f7f",
+                                "category": "Форсунки",
+                                "contracts": [
+                                    {
+                                        "id": "5c10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
+                                    },
+                                    {
+                                        "id": "5c10fbb7-404-4813-af9-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-483-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "id": "c1a3b8c7-7f90-4b3c-bc34-f08b999748f1",
+                        "season": "Сезон 2021",
+                        "categories": [
+                            {
+                                "id": "361c5247-6f5f-4b0b-9c7f-7149c24f7f7f",
+                                "category": "СЗР",
+                                "contracts": [
+                                    {
+                                        "id": "5c10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
+                                    },
+                                    {
+                                        "id": "5c10fbb7-404-4813-af9-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-483-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
+                                    }
+                                ]
+                            },
+                            {
+                                "id": "9a3a5247-8f5f-6b0b-5d7f-7149c24f7f7f",
+                                "category": "Удобрения",
+                                "contracts": [
+                                    {
+                                        "id": "5c10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-af19-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
+                                    },
+                                    {
+                                        "id": "5c10fbb7-404-4813-af9-ae21c4f1db9e",
+                                        "productName": "Ластик Эстра 4*5",
+                                        "avgPrice": "6500 тг",
+                                        "count": "180"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-483-af19-ae21c4f1db9e",
+                                        "productName": "Имидашанс-С 4*5л",
+                                        "avgPrice": "19850 тг",
+                                        "count": "255"
+                                    },
+                                    {
+                                        "id": "dc10fbb7-4d04-4813-ae21c4f1dbe",
+                                        "productName": "Парадокс ВРК 4*5л",
+                                        "avgPrice": "32500 тг",
+                                        "count": "200"
                                     }
                                 ]
                             }
