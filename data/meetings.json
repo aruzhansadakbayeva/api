@@ -401,7 +401,7 @@
                 "1": [
                     {
                         "id": 1,
-                        "season": "Summer",
+                        "season": "Сезон 2022",
                         "contracts": [
                             {
                                 "id": 1001,
@@ -424,7 +424,7 @@
                     },
                     {
                         "id": 2,
-                        "season": "Summer",
+                        "season": "Сезон 2023",
                         "contracts": [
                             {
                                 "id": 1001,
